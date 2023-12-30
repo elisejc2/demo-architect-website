@@ -67,9 +67,16 @@
     .first {
         margin-top: 40px;
     }
+    #map-src {
+        display: inline;
+        padding: 20px;
+        width: 300px;
+        height: 250px;
+      }
     footer {
         background-color: #53c1f4;
         bottom: 0;
+        /* height: 50px; */
         width: 100%;
         position: fixed;
     }
