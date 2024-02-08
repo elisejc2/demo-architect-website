@@ -31,6 +31,13 @@
         max-width: 50px;
         margin-left: 50px;
       }
+      .backgroundImg {
+        background-image: url("buildingImg/b3.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        float: left;
+        width: auto;
+        }
       #website-name {
         width: max(200px, 30vw);
         background-color: #53c1f4;
