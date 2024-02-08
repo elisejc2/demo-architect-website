@@ -1,3 +1,5 @@
+/* demo-website css */
+
 @media (prefers-reduced-motion: no-preference) {
     * {
         scroll-behavior: smooth;
@@ -25,12 +27,16 @@
         align-items: center;
         top: 0;
       }
+      #logo {
+        max-width: 50px;
+        margin-left: 50px;
+      }
       #website-name {
         width: max(200px, 30vw);
         background-color: #53c1f4;
         font-weight: bolder;
         padding: 0.4rem;
-        margin-left: 10px;
+        margin-left: -150px;
         color: #ffff;
     }
     .list {
@@ -53,6 +59,9 @@
     }
     a:hover {
         color:rgb(0, 0, 0);
+    }
+    .page-title {
+        text-align: center;
     }
     .main {
         line-height: 1.8;
