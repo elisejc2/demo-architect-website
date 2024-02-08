@@ -4,13 +4,13 @@
     * {
         scroll-behavior: smooth;
     }
-    .dev {
+    /* .dev {
         border-style: solid;
     
-    }
+    } */
     html {
         background-color: white;
-        color:rgb(0, 0, 0);
+        color: white;
         font-family: Helvetica, sans-serif;
         font-size: medium;
         font-weight: normal;
@@ -32,7 +32,7 @@
         margin-left: 50px;
       }
       .backgroundImg {
-        background-image: url("buildingImg/b3.jpg");
+        background-image: url("buildingImg/b4.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         float: left;
@@ -68,16 +68,18 @@
     }
     .page-title {
         text-align: center;
+        color: black;
     }
     .main {
         line-height: 1.8;
+        background-color: black;
+        opacity: 0.6;
     }
     div {
         width: 85%;
         margin: 20px auto 20px auto;
         max-width: 1920px;
-        padding: 10px;
-
+        padding: 10px; 
     }
     .first {
         margin-top: 40px;
