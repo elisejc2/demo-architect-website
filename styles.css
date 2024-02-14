@@ -9,7 +9,7 @@
     
     } */
     html {
-        background-color: white;
+        background-color: black;
         color: white;
         font-family: Helvetica, sans-serif;
         font-size: medium;
@@ -21,7 +21,7 @@
     header {
         width: 100%;
         height: 50px;
-        background-color: #53c1f4;
+        background-color: black;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -31,19 +31,19 @@
         max-width: 50px;
         margin-left: 50px;
       }
-      .backgroundImg {
+      /* .backgroundImg {
         background-image: url("buildingImg/b4.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         float: left;
         width: auto;
-        }
+        } */
       #website-name {
         width: max(200px, 30vw);
-        background-color: #53c1f4;
+        background-color: black;
         font-weight: bolder;
         padding: 0.4rem;
-        color: #ffff;
+        color: white;
     }
     .list {
         display: flex;
@@ -57,18 +57,18 @@
     .list > li {
         margin: 2rem;
         list-style-type: none;
-        color:#ffff;
+        color: white;
     }
     a {
-        color:#ffff;
+        color: white;
         text-decoration: none;
     }
     a:hover {
-        color:rgb(0, 0, 0);
+        color: lightskyblue;
     }
     .page-title {
         text-align: center;
-        color: black;
+        /* color: black; */
     }
     .main {
         line-height: 1.8;
@@ -84,14 +84,14 @@
     .first {
         margin-top: 40px;
     }
-    #map-src {
+    /* #map-src {
         display: inline;
         padding: 20px;
         width: 300px;
         height: 250px;
-      }
+      } */
     footer {
-        background-color: #53c1f4;
+        background-color: black;
         bottom: 0;
         /* height: 50px; */
         width: 100%;
