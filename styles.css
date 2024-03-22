@@ -24,6 +24,9 @@
     .navbar {
         background-color: rgba(0, 0, 0, 0.6);
     }
+    #navSDG {
+        background: none;
+    }
     .carousel-item img {
         height: 500px;
     }
@@ -32,5 +35,8 @@
     }
     .mission > .mission-statement, .mission-text {
         text-align: center;
+    }
+    #footer {
+        
     }
 }
