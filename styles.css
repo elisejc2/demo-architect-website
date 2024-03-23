@@ -36,7 +36,19 @@
     .mission > .mission-statement, .mission-text {
         text-align: center;
     }
+    .carousel-inner > .carousel-item > img {
+        width: fit-content;
+        height: fit-content;
+        max-width: 1000;
+        max-height: 700px;
+      }
     #footer {
-        
+        background-color: rgba(0, 0, 0, 0.6);
     }
+    #footer > .footer-row > .footer-col > a, p, address {
+        color: white;
+    }
+    /* div > .col-1 > .footer-col > a > .navbar-brand {
+        margin-left: 50px;
+    } */
 }
