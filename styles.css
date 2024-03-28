@@ -8,6 +8,11 @@
         max-height: 100%;
         width: 100%;
     }
+    .dev {
+        border: 1px;
+        border-color: black;
+        border-style: solid;
+    }
     body {
         line-height: 1.75rem !important;
     }
@@ -21,6 +26,11 @@
         background-size: 100% 100%;
         background-position: center;
     }
+    #website-coming-soon {
+        padding-top: 75px;
+        padding-left: 35px;
+        opacity: 0.75;
+    }
     .navbar {
         background-color: rgba(0, 0, 0, 0.6);
     }
@@ -30,25 +40,44 @@
     .carousel-item img {
         height: 500px;
     }
-    #website-coming-soon {
-        color: white;
-    }
     .mission > .mission-statement, .mission-text {
         text-align: center;
+        color: black !important;
     }
-    .carousel-inner > .carousel-item > img {
-        width: fit-content;
-        height: fit-content;
-        max-width: 1000;
+    .about-imgs-item {
+        height: 15rem; 
+        width: 15rem; 
+        display: flex;
+        object-fit: cover;
+        justify-content: start;
+        flex-wrap: nowrap;
+    }
+    /* @media (min-width: 576px) and (max-width: 991px) {
+        .about-imgs-item {
+            height: 10rem; 
+            width: 10rem; 
+            max-width: 120px;
+            flex-wrap: nowrap;
+        }
+      }
+      @media (max-width: 575px) {
+        .about-imgs-item {
+            display: none;
+        }
+      } */
+    .carousel-inner > .carousel-item {
+        /* width: fit-content;
+        height: fit-content; */
+        max-width: 1300;
         max-height: 700px;
       }
+    .carousel-item > img {
+        object-fit: cover;
+    }
     #footer {
         background-color: rgba(0, 0, 0, 0.6);
     }
     #footer > .footer-row > .footer-col > a, p, address {
         color: white;
     }
-    /* div > .col-1 > .footer-col > a > .navbar-brand {
-        margin-left: 50px;
-    } */
 }

@@ -13,7 +13,6 @@
 
 
 
-<!-- NAV: should stay visable when scrolling until about half way down the screen -->
 <!-- NAV: navbar should be thinner, items more spaced out, & less margins -->
 
     <nav class="navbar navbar-dark navbar-expand-md fixed-top">
@@ -47,21 +46,16 @@
             </div>
         </div>
     </nav>
-
-
-
-
-
-
-
-
-    <div class="bg-image backgroundImg" style="background-image: url(/Users/elisecarlson/coding/demo-architect-website/buildingImg/b9.jpg); height: 250vh;" alt="Sponseller Design Group Home Page Image">
-        <div>
-            <h5 id="website-coming-soon">Full Website Coming Soon!</h5>
+    <div class="container-fluid">
+        <div class="bg-image backgroundImg" style="background-image: url(/Users/elisecarlson/coding/demo-architect-website/buildingImg/b9.jpg); height: 250vh;" alt="Sponseller Design Group Home Page Image">
+            <div class="top-left">
+                <p id="website-coming-soon" style="z-index: 1;">Full Website Coming Soon!</p>
+            </div>
         </div>
+
     </div>
 
-    <div class="container-fluid  h-100">
+    <div class="container-fluid dev">
         <div class="row flex-grow-1">
             <div class="col mission">
                 <h1 class="mission mission-statement">Mission Statement</h1>
@@ -70,9 +64,28 @@
                 </p>
             </div>
         </div>
+        <div class="row flex-grow-1 about-imgs">
+            <div class="about-imgs-item">
+                <img id="about-imgs-1" src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/computer1.jpg">
+            </div>
+            <div class="about-imgs-item">
+                <img id="about-imgs-2" src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/meeting1.jpg">
+            </div>
+            <div class="about-imgs-item">
+                <img id="about-imgs-3" src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/phone.jpg">
+            </div>
+            <div class="about-imgs-item">
+                <img id="about-imgs-4" src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/computer2.jpg">
+            </div>
+            <div class="about-imgs-item">
+                <img id="about-imgs-5" src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/meeting2.jpg">
+            </div>
+            <!-- <div class="about-imgs-item">
+                <img id="about-imgs-6" src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/meeting3.jpg">
+            </div> -->
+        </div>
         <!-- add row of imgs here for lg / xl screen; they will turn into 2-3img carousel if md screen and 1img carousel if sm / xs screen-->
     </div>
-
 
     <div id="carouselWorks" class="carousel slide" data-ride="false" data-interval="false" data-keyword="true" data-wrap="true">
         <ol class="carousel-indicators">
@@ -85,7 +98,6 @@
                 <img class="d-block w-100" src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/b5.jpg" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>First Work</h5>
-                    <p>The whole caption will only show up if the screen is at least medium size.</p>
                 </div>
             </div>
             <div class="carousel-item">
@@ -99,7 +111,6 @@
                 <img class="d-block w-100" src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/b6.jpg" alt="Third slide">
                 <div class="carousel-caption d-none d-md-block">
                     <h5>Third Work</h5>
-                    <p>The whole caption will only show up if the screen is at least medium size.</p>
                 </div>
             </div>
         </div>
