@@ -45,18 +45,19 @@
         color: black !important;
     }
     .about-imgs-item {
-        height: 15rem; 
-        width: 15rem; 
+        height: 240px; 
+        width: 245px; 
         display: flex;
         object-fit: cover;
         justify-content: start;
         flex-wrap: nowrap;
     }
-    /* @media (min-width: 576px) and (max-width: 991px) {
+
+    @media (min-width: 576px) and (max-width: 991px) {
         .about-imgs-item {
-            height: 10rem; 
-            width: 10rem; 
-            max-width: 120px;
+            height: 75px; 
+            width: 85px; 
+            max-width: 100px;
             flex-wrap: nowrap;
         }
       }
@@ -64,7 +65,7 @@
         .about-imgs-item {
             display: none;
         }
-      } */
+      }
     .carousel-inner > .carousel-item {
         /* width: fit-content;
         height: fit-content; */
