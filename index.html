@@ -10,27 +10,24 @@
 </head>
 <body>
 
-
-
-
 <!-- NAV: navbar should be thinner, items more spaced out, & less margins -->
 
     <nav class="navbar navbar-dark navbar-expand-md fixed-top">
-        <div class="container-fluid">
+        <div class="container-fluid" style="padding: 0 !important; margin: 0 !important;">
             <a href="" class="navbar-brand mb-0 h1">
                 <img class="d-inline-block align-top" id="logo" src="/Users/elisecarlson/coding/demo-architect-website/logo-example.png" width="30" height="30">
             </a>
-            <a class="navbar" id="navSDG" style="color: white">Sponseller Design Group</a>
+            <a href="" class="navbar" id="navSDG" style="color: white">Sponseller Design Group</a>
             <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a href="#mission" class="nav-link active">About</a>
+                        <a href="#aboutSection" class="nav-link active">About</a>
                     </li>
                     <li class="nav-item active">
-                        <a href="#works" class="nav-link active">Works</a>
+                        <a href="#carouselWorks" class="nav-link active">Works</a>
                     </li>
                     <li class="nav-item active">
                         <a href="#footer" class="nav-link active">Inquiries</a>
@@ -46,7 +43,7 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid">
+    <div class="container-fluid" style="padding: 0 !important; margin: 0 !important;">
         <div class="bg-image backgroundImg" style="background-image: url(/Users/elisecarlson/coding/demo-architect-website/buildingImg/b9.jpg); height: 250vh;" alt="Sponseller Design Group Home Page Image">
             <div class="top-left">
                 <p id="website-coming-soon" style="z-index: 1;">Full Website Coming Soon!</p>
@@ -57,33 +54,43 @@
 
     <div class="container-fluid dev">
         <div class="row flex-grow-1">
-            <div class="col mission">
-                <h1 class="mission mission-statement">Mission Statement</h1>
-                <p class="mission mission-text">a couple sentences about the mission statement. a couple sentences about the mission statement. a couple sentences about the mission statement. <br>
+            <div id="aboutSection" class="col mission">
+                <h1 class="mission-statement">Mission Statement</h1>
+                <p class="mission-text">a couple sentences about the mission statement. a couple sentences about the mission statement. a couple sentences about the mission statement. <br>
                 a couple sentences about the mission statement. a couple sentences about the mission statement. a couple sentences about the mission statement.
                 </p>
             </div>
         </div>
-    <!-- </div> -->
+    </div>
 
-        <div class="row about-imgs">
-            <div class="about-imgs-item">
-                <img id="about-imgs-1" src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/computer1.jpg">
+
+
+    <div class="container-fluid images-container">
+        <div class="row row-cols-lg-5 dev">
+            <div class="col dev text-center">
+                <img src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/computer1.jpg" class="img-fluid img-thumbnail">
             </div>
-            <div class="about-imgs-item">
-                <img id="about-imgs-2" src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/meeting1.jpg">
+            <div class="col dev text-center">
+                <img src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/meeting1.jpg" class="img-fluid img-thumbnail">
             </div>
-            <div class="about-imgs-item">
-                <img id="about-imgs-3" src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/phone.jpg">
+            <div class="col dev text-center">
+                <img src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/phone.jpg" class="img-fluid img-thumbnail">
             </div>
-            <div class="about-imgs-item">
-                <img id="about-imgs-4" src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/computer2.jpg">
+            <div class="col dev text-center">
+                <img src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/computer2.jpg" class="img-fluid img-thumbnail">
             </div>
-            <div class="about-imgs-item">
-                <img id="about-imgs-5" src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/meeting2.jpg">
+            <div class="col dev text-center">
+                <img src="/Users/elisecarlson/coding/demo-architect-website/buildingImg/meeting2.jpg" class="img-fluid img-thumbnail">
             </div>
         </div>
-        <!-- add row of imgs here for lg / xl screen; they will turn into 2-3img carousel if md screen and 1img carousel if sm / xs screen-->
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center">
+                <h1>Works</h1>
+            </div>
+        </div>
     </div>
 
     <div id="carouselWorks" class="carousel slide" data-ride="false" data-interval="false" data-keyword="true" data-wrap="true">
@@ -125,9 +132,9 @@
 
 
     <div id="footer" class="container-fluid d-flex">
-        <div class="row flex-grow-1 no-gutters footer-row">
+        <div class="row flex-grow-1 no-gutters footer-row" style="height: 100%; width: 100%;">
             <div class="col-1 footer-col">
-                <a href="#logo" class="navbar-brand mb-0 h1">
+                <a class="navbar-brand mb-0 h1" href="">
                     <img class="d-inline-block align-top" src="/Users/elisecarlson/coding/demo-architect-website/logo-example.png" width="30" height="30" style="margin-left: 10px;">
                 </a>
             </div>

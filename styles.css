@@ -3,23 +3,24 @@
     * {
         scroll-behavior: smooth;
     }
-    html, body, .row {
+
+    html, body {
         height: 100%;
         max-height: 100%;
         width: 100%;
     }
-    .dev {
+    /* .dev {
         border: 1px;
         border-color: black;
         border-style: solid;
-    }
+    } */
     body {
         line-height: 1.75rem !important;
     }
-    .container-fluid {
-        padding: 0 !important;
+    /* .container-fluid {
+        padding: 0;
         margin: 0 !important;
-    }
+    } */
     .backgroundImg {
         background-image: url("/Users/elisecarlson/coding/demo-architect-website/buildingImg/b6.jpg");
         background-repeat: no-repeat;
@@ -40,35 +41,27 @@
     .carousel-item img {
         height: 500px;
     }
+    .mission {
+        padding-top: 7%;
+        padding-bottom: 2%;
+    }
     .mission > .mission-statement, .mission-text {
         text-align: center;
         color: black !important;
     }
-    .about-imgs-item {
-        height: 240px; 
-        width: 245px; 
-        display: flex;
-        object-fit: cover;
-        justify-content: start;
-        flex-wrap: nowrap;
+    .images-container {
+        padding-bottom: 10rem;
     }
-
-    @media (min-width: 576px) and (max-width: 991px) {
-        .about-imgs-item {
-            height: 75px; 
-            width: 85px; 
-            max-width: 100px;
-            flex-wrap: nowrap;
-        }
-      }
-      @media (max-width: 575px) {
-        .about-imgs-item {
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+    @media (max-width: 575px) {
+        .img-fluid {
             display: none;
         }
       }
     .carousel-inner > .carousel-item {
-        /* width: fit-content;
-        height: fit-content; */
         max-width: 1300;
         max-height: 700px;
       }
