@@ -1,0 +1,14 @@
+{
+  "name": "demo-architect-website",
+  "version": "1.0.0",
+  "description": "Demo Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elise Carlson",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
