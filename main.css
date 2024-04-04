@@ -55,6 +55,7 @@
   .img-fluid {
       max-width: 100%;
       height: auto;
+      box-shadow: 1px 1px 8px lightgrey;
   }
   @media (max-width: 575px) {
       .img-fluid {
@@ -75,6 +76,8 @@
       color: white;
   }
 }
+
+
 
 /* END OF CUSTOM CSS */
 
