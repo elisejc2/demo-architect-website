@@ -123,6 +123,8 @@
   /* START OF FOOTER */
   #footer {
       background-color: rgba(0, 0, 0, 0.6);
+      padding-top: 0.5rem;
+      justify-content: center;
   }
   #footer > .footer-row > .footer-col > a, p {
       color: white;
