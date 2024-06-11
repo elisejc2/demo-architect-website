@@ -38,7 +38,7 @@ body {
 /* END: BODY */
 /* START: NAVBAR */
 li, ul, a, .navbar, .nav-link, .navbar-nav {
-  text-decoration: none;
+  text-decoration: none !important;
   color: white !important;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
@@ -51,6 +51,7 @@ li, ul, a, .navbar, .nav-link, .navbar-nav {
   display: block;
   background-color: rgba(0, 0, 0, 0.8);
 }
+
 .btn {
   border: none;
   margin: 1rem 0.5rem 1rem 0.5rem;
@@ -72,7 +73,8 @@ li, ul, a, .navbar, .nav-link, .navbar-nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 80vh;
+  min-height: 85vh;
+  image-resolution: from-image 300dpi;
 }
 .h4 {
   opacity: 0.8;
@@ -93,12 +95,12 @@ li, ul, a, .navbar, .nav-link, .navbar-nav {
 /* END: BG IMAGE */
 /* START: MISSION */
 .mission {
-  padding-top: 7%;
-  padding-bottom: 2%;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
   }
-.mission > .mission-statement, .mission-text {
-  text-align: center;
-}
+  .mission-statement {
+    padding-bottom: 2rem;
+  }
 .images-container {
   padding-bottom: 10rem;
 }
@@ -107,8 +109,16 @@ li, ul, a, .navbar, .nav-link, .navbar-nav {
   height: auto;
   /* box-shadow: 1px 1px 8px rgb(255, 255, 255, 0.8); */
 } 
+.img-thumbnail {
+  border: 0;
+  background-color: black;
+  padding: 0;
+}
 /* END: MISSION */
 /* START: CAROUSEL */
+#works {
+  padding-top: 5rem;
+}
 .carousel-item img {
     height: 500px;
 }
@@ -119,12 +129,24 @@ li, ul, a, .navbar, .nav-link, .navbar-nav {
   max-width: 1300;
   max-height: 700px;
 }
+.carousel-item {
+  transition-duration: 2s;
+}
+.transform {
+  transition: 5s ease-out 5s ease-in ease-in-out;
+  opacity: 100%;
+}
+.carousel-fade {
+  transition-duration: 1.5s;
+  /* opacity: 50%; */
+}
 .carousel-item > img {
   object-fit: cover;
 }
 .carousel-control-prev, .carousel-control-next {
   opacity: 1 !important;
 } 
+
 /* END: CAROUSEL */
 /* START: FOOTER */
 footer {
@@ -134,8 +156,5 @@ footer {
 footer > .row > .col > .text-light {
   opacity: 0.7 !important;
   text-shadow: none;
-}
-#footer-email {
-  padding-right: 2.5rem;
 }
 /* END: FOOTER */
