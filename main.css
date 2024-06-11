@@ -92,6 +92,10 @@ li, ul, a, .navbar, .nav-link, .navbar-nav {
     flex-wrap: nowrap;
   }
 }
+.form-container {
+  margin-top: 10rem;
+}
+
 /* END: BG IMAGE */
 /* START: MISSION */
 .mission {

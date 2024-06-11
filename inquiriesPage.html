@@ -61,6 +61,53 @@
             <div class="d-flex align-top masthead-message">
                 <h4 class="h4">Full Webite Coming Summer 2024</h4>
             </div>
+            <div class="container form-container justify-content-center align-items-center">
+                <form class="row g-3 ubuntu-regular" action="" method="post">
+                   <div class="col-md-12">
+                    <p class="recipient">Please select the intended message recipient.</p>
+                   </div>
+                    <div class="col-md-6">
+                        <input class="radio-button" type="radio" name="radioRS" id="radioRS">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Robert Sponseller
+                        </label>
+                    </div>
+                    <div class="col-md-6">   
+                        <input class="radio-button" type="radio" name="radioJC" id="radioJC">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Jennifer Chen
+                        </label>
+                    </div>
+                    <div class="col-md-6"> 
+                        <label for="firstName" class="form-label">
+                            First Name   *
+                        </label>
+                        <input type="text" class="form-control" id="firstName" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Last Name   *</label>
+                        <input type="text" class="form-control" id="lastName" required>
+                    </div>
+                    <div class="col-md-8">
+                        <label for="emailInfo" class="form-label">E-mail   *</label>
+                        <input type="email" class="form-control" id="emailInfo" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="phoneNumber" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="###-###-####">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="comments" class="form-label">Message Box  *</label>
+                        <textarea class="form-control" id="comments" row="5" required></textarea>
+                    </div>
+                    <div class="col">
+                        <p>* indicates required field</p>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-light contact-send">Send</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
     <!-- END 1ST BACKGROUND IMG -->
