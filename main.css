@@ -69,12 +69,12 @@ li, ul, a, .navbar, .nav-link, .navbar-nav {
   padding-top: 3rem;
   padding-bottom: 1.5rem;
   background-position: bottom center;
-  background-image: url('buildingImg/-¬MaxwellMacKenzie-OStMarket-TWO-12Finals-4_project-page.jpg');
+  background-image: url('buildingImg/-¬MaxwellMacKenzie-OStMarket-TWO-12Finals-4.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 85vh;
-  image-resolution: from-image 300dpi;
+  min-height: 88vh;
+  image-resolution: from-image 600dpi;
 }
 .h4 {
   opacity: 0.8;
