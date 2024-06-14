@@ -1,7 +1,9 @@
 node_modules/
+.DS_Store
 .vscode/
 *.json
 .sass-cache/
 *.DS_Store
 *.scss
 *.map
+testNotes.html

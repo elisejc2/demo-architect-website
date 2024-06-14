@@ -4,102 +4,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="inquiriesPage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
-    <title>Sponseller Design Inquiries</title>
+    <title>Sponseller Design Group</title>
 </head>
-<body>
+<body class="ubuntu-regular">
     <!-- START NAVBAR -->
-    <nav class="navbar navbar-dark navbar-expand-md fixed-top">
-        <div class="container-fluid" style="padding: 0 !important; margin: 0 !important;">
-            <a href="" class="navbar-brand mb-0 h1">
-                <img class="d-inline-block align-top" id="logo" src="/Users/elisecarlson/coding/demo-architect-website/logo-example.png" width="30" height="30">
-            </a>
-            <a href="" class="navbar" id="navSDG" style="color: white">Sponseller Design Group</a>
-            <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid justify-content-start">
+            <button class="navbar-toggler btn navbar-toggler-icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a href="#aboutSection" class="nav-link active">About</a>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-start">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Sponseller Design Group</a>
                     </li>
-                    <li class="nav-item active">
-                        <a href="#carouselWorks" class="nav-link active">Works</a>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="about.html">About</a>
                     </li>
-                    <li class="nav-item active">
-                        <button href="" class="nav-link active dropbtn">Inquiries</button>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="works.html" role="button" aria-expanded="false">
+                        Works
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="disabled dropdown-item" href="works.html#work-one">Work One</a></li>
+                            <li><a class="disabled dropdown-item" href="works.html#work-two">Work Two</a></li>
+                            <li><a class="disabled dropdown-item" href="works.html#work-three">Work Three</a></li>
+                        </ul>
                     </li>
-                    <!-- <li class="nav-item active">
-                        <form action="" class="d-flex">
-                            <input type="text" class="form-control me-2">
-                            <button type="submit" class="btn btn-outline-light">Search</button>
-                        </form>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" aria-current="page" href="inquiriesPage.html" target="_blank" role="button" aria-expanded="false">
+                        Inquiries</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="nav-link" href="mailto: rsponseller@sponsellerdesign.com">rsponseller@sponsellerdesign.com</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="mailto: jchen@sponsellerdesign.com">jchen@sponsellerdesign.com</a>
+                            </li>
+                            <li>
+                                <a class="nav-link" href="tel:2023550305">(202)355-0305</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" id="contact" target="_blank" href="inquiriesPage.html">Inquiries</a>
                     </li> -->
                 </ul>
-            </div>
+          </div>
         </div>
     </nav>
-    <!-- END NAV BAR -->
-    <!-- START BACKGROUND IMG -->
-    <!-- <div class="container-fluid" style="padding: 0 !important; margin: 0 !important;">
-        <div class="bg-image backgroundImg" style="background-image: url(); height: 110vh;" alt="Sponseller Design Group Inquiries Page Image">
-            <div class="top-left">
-                <p id="website-coming-soon" style="z-index: 1;">Full Website Coming Soon!</p>
+    <!-- END NAVBAR -->
+    <!-- START 1ST BACKGROUND IMG -->
+    <div class="masthead bg-image">  
+        <div class="container">
+            <div class="d-flex align-top masthead-message">
+                <h4 class="h4">Full Webite Coming Summer 2024</h4>
+            </div>
+            <div class="container form-container justify-content-center align-items-center">
+                <!-- ** ADD ACTION TO FORM BEFORE MAKING IT LIVE ** -->
+                <form class="row g-3 ubuntu-regular" action="" method="post">
+                   <div class="col-md-12">
+                    <p class="recipient">Please select the intended message recipient.</p>
+                   </div>
+                    <div class="col-md-6">
+                        <input class="form-check-label" type="radio" name="radiobutton" id="radioRS" required>
+                        <label class="form-check-label" for="radioRS">
+                            Robert Sponseller
+                        </label>
+                    </div>
+                    <div class="col-md-6">   
+                        <input class="form-check-label" type="radio" name="radiobutton" id="radioJC" required>
+                        <label class="form-check-label" for="radioJC">
+                            Jennifer Chen
+                        </label>
+                    </div>
+                    <div class="col-md-6"> 
+                        <label for="firstName" class="form-label">
+                            First Name   *
+                        </label>
+                        <input type="text" class="form-control" id="firstName" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Last Name   *</label>
+                        <input type="text" class="form-control" id="lastName" required>
+                    </div>
+                    <div class="col-md-8">
+                        <label for="emailInfo" class="form-label">E-mail   *</label>
+                        <input type="email" class="form-control" id="emailInfo" required>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="phoneNumber" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phoneNumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="###-###-####">
+                    </div>
+                    <div class="col-md-12">
+                        <label for="comments" class="form-label">Message Box  *</label>
+                        <textarea class="form-control" id="comments" row="5" required></textarea>
+                    </div>
+                    <div class="col">
+                        <p>* indicates required field</p>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-light contact-send">Send</button>
+                    </div>
+                </form>
             </div>
         </div>
-    </div> -->
-    <!-- END BACKGROUND IMG -->
-    <div class="container-fluid white-space">
-        <div class="row white-space-row" style="height: 4rem;">
-                <div class="col-12"></div>
-        </div>
     </div>
-    <div class="container-fluid dev">
-        <div class="row flex-grow-1">
-            <div id="aboutSection" class="col inquiries">
-                <h1 class="inquiries">Inquiries</h1>
-                <p class="inquiries-text" style="color: black;">
-                    If you are interested in our sevices or have any questions, please reach out to us through email or phone.<br> We will do our best to respond within 1-2 business days. Thank you! 
-                </p><br>
-                <a>Phone: 1 (202) 446-8073</a><br>
-                <a>Email: rsponseller@sponsellerdesign.com</a>
+    <!-- END 1ST BACKGROUND IMG -->
+    <!-- START FOOTER -->
+    <footer class="footer container-fluid bg-dark">
+        <div class="container">
+            <div class="row d-flex">
+                <div class="col ">
+                    <a href="index.html" class="text-light text-decoration-none">Sponseller Design Group</a>
+                </div>
+                <div class="col text-center">
+                    <a href="works.html" class="text-light text-decoration-none">Works</a>
+                </div>
+                <div class="col text-end">
+                    <a href="inquiriesPage.html" class="text-light text-decoration-none" target="_blank">Inquiries</a>
+                </div>
+                <!-- <div class="col" id="footer-email">
+                    <a class="text-light text-decoration-none" href="mailto: rsponseller@sponsellerdesign.com">rsponseller@sponsellerdesign.com</a>
+                </div> -->
             </div>
         </div>
-    </div>
+    </footer>
+    <!-- END FOOTER -->
 
-    <div class="container-fluid white-space">
-        <div class="row white-space-row" style="height: 2rem;">
-                <div class="col-12"></div>
-        </div>
-    </div>
-    
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col" id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12412.241594779274!2d-77.21502255948013!3d38.94544853605795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b635556f8f6695%3A0xe483d60225c0be67!2s7301%20Westerly%20Ln%2C%20McLean%2C%20VA%2022101!5e0!3m2!1sen!2sus!4v1713905725854!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-            <div class="col" id="address">
-                <address>
-                    Sponseller Design Group<br>
-                    7301 Westerly Lane<br> 
-                    McLean, VA 22101
-                </address>
-            </div>
-        </div>
-    </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 
-
-    <div class="container-fluid white-space">
-        <div class="row white-space-row" style="height: 2rem;">
-                <div class="col-12"></div>
-        </div>
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script> 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
