@@ -35,9 +35,15 @@
 body {
   background-color: black;
 }
+/* .dev, .dev > p, .dev > ul {
+  border: 1px;
+  color: white;
+  border-style: solid;
+} */
+
 /* END: BODY */
 /* START: NAVBAR */
-li, ul, a, .navbar, .nav-link, .navbar-nav {
+li, ul, a:not(#apply-email), .navbar, .nav-link, .navbar-nav {
   text-decoration: none !important;
   color: white !important;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -104,7 +110,6 @@ li, ul, a, .navbar, .nav-link, .navbar-nav {
 .form-container {
   margin-top: 10rem;
 }
-
 /* END: BG IMAGE */
 /* START: MISSION */
 .mission {
@@ -128,6 +133,12 @@ li, ul, a, .navbar, .nav-link, .navbar-nav {
   padding: 0;
 }
 /* END: MISSION */
+/* START: CAREER.HTML JOB DESCRIPTION */
+.career-description > b {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+/* END: CAREER.HTML JOB DESCRIPTION */
 /* START: CAROUSEL */
 #works {
   padding-top: 5rem;
@@ -171,5 +182,4 @@ footer > .row > .col > .text-light {
   opacity: 0.7 !important;
   text-shadow: none;
 }
-
 /* END: FOOTER */
