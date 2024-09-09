@@ -9,37 +9,11 @@
   font-weight: 400;
   font-style: normal;
 }
-/* .ubuntu-medium {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-} */
-/* .ubuntu-bold {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-} */
-/* .ubuntu-light-italic {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-} */
-/* .ubuntu-regular-italic {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-} */
-
 /* END: FONT */
 /* START: BODY */
 body {
   background-color: black;
 }
-/* .dev, .dev > p, .dev > ul {
-  border: 1px;
-  color: white;
-  border-style: solid;
-} */
 
 /* END: BODY */
 /* START: NAVBAR */
@@ -60,8 +34,6 @@ li, ul, a:not(#apply-email), .navbar, .nav-link, .navbar-nav {
 .inquiries-item:hover {
   background-color: rgba(203, 203, 203, 0.569);
 }
-
-
 .btn {
   border: none;
   margin: 1rem 0.5rem 1rem 0.5rem;
@@ -71,7 +43,6 @@ li, ul, a:not(#apply-email), .navbar, .nav-link, .navbar-nav {
   padding-top: -10px;
   padding-left: -10px;
 }
-
 /* END: NAVBAR */
 /* START: BG IMAGE */
 .masthead {
@@ -86,10 +57,22 @@ li, ul, a:not(#apply-email), .navbar, .nav-link, .navbar-nav {
   min-height: 100vh;
   image-resolution: from-image 600dpi;
   position: relative;
-  padding-bottom: 2.5rem;
+
 }
 .h4 {
   opacity: 0.8;
+  margin-top: auto;
+}
+#image-credit > .d-flex {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-right: 0.5rem;
+}
+#image-credit > div > p {
+  opacity: 0.8;
+  text-shadow: none;
+  font-size: 12px;
 }
 @media screen and (min-width: 992px) {
   .masthead-message {
@@ -105,6 +88,9 @@ li, ul, a:not(#apply-email), .navbar, .nav-link, .navbar-nav {
   }
   .footer > .d-flex {
     flex-wrap: nowrap;
+  }
+  #image-credit > div > p {
+    font-size: 9px;
   }
 }
 .form-container {
@@ -125,7 +111,6 @@ li, ul, a:not(#apply-email), .navbar, .nav-link, .navbar-nav {
 .img-fluid {
   max-width: 100%;
   height: auto;
-  /* box-shadow: 1px 1px 8px rgb(255, 255, 255, 0.8); */
 } 
 .img-thumbnail {
   border: 0;
@@ -162,7 +147,6 @@ li, ul, a:not(#apply-email), .navbar, .nav-link, .navbar-nav {
 }
 .carousel-fade {
   transition-duration: 1.5s;
-  /* opacity: 50%; */
 }
 .carousel-item > img {
   object-fit: cover;
@@ -170,7 +154,6 @@ li, ul, a:not(#apply-email), .navbar, .nav-link, .navbar-nav {
 .carousel-control-prev, .carousel-control-next {
   opacity: 1 !important;
 } 
-
 /* END: CAROUSEL */
 /* START: FOOTER */
 footer {
