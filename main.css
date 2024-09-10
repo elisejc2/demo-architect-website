@@ -67,12 +67,10 @@ li, ul, a:not(#apply-email), .navbar, .nav-link, .navbar-nav {
   flex-direction: row-reverse;
   justify-content: flex-start;
   align-items: flex-end;
-  margin-right: 0.5rem;
 }
 #image-credit > div > p {
-  opacity: 0.8;
-  text-shadow: none;
   font-size: 12px;
+  margin-right: 6rem;
 }
 @media screen and (min-width: 992px) {
   .masthead-message {
@@ -91,6 +89,7 @@ li, ul, a:not(#apply-email), .navbar, .nav-link, .navbar-nav {
   }
   #image-credit > div > p {
     font-size: 9px;
+    margin-right: 0.5rem;
   }
 }
 .form-container {
