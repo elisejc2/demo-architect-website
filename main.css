@@ -17,7 +17,7 @@ body {
 
 /* END: BODY */
 /* START: NAVBAR */
-li, ul, a:not(#apply-email), .navbar, .nav-link, .navbar-nav {
+li, ul, a:not(#apply-email, .buttons>*), .navbar, .nav-link, .navbar-nav {
   text-decoration: none !important;
   color: white !important;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -34,7 +34,7 @@ li, ul, a:not(#apply-email), .navbar, .nav-link, .navbar-nav {
 .inquiries-item:hover {
   background-color: rgba(203, 203, 203, 0.569);
 }
-.btn {
+.btn:not(.buttons>*) {
   border: none;
   margin: 1rem 0.5rem 1rem 0.5rem;
 }
