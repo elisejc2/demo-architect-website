@@ -1,3 +1,4 @@
+//@variables
 var document;
 const listButton = document.querySelector('.listButton');
 const listView = document.querySelector('.listView');
@@ -8,6 +9,7 @@ let visible = false;
 let thumbnailVisible = false;
 let showImages = true;
 
+//@toggleImages: list/image toggle function
 const toggleImages = function(e) {
     e.preventDefault();
     showImages = !showImages;
@@ -46,6 +48,7 @@ const toggleImages = function(e) {
     divToHide.style["display"] = "none";
 }
 
+//@listFunction: list view is hidden by default, this function allows it to be visiable when "List View" button is clicked by user 
 const listFunction = function(e) {
     visible = !visible
 
@@ -55,6 +58,7 @@ const listFunction = function(e) {
    listButtonEl.style["display"] = displaySetting;
 } 
 
+//@thumbnailFunction: thumbnail view is visible by default; however, it is hidden when List is shown so this function allows it to be visible again when "Image View" button is clicked by user 
 const thumbnailFunction = function(e) {
     thumbnailVisible = !thumbnailVisible
     
@@ -63,9 +67,8 @@ const thumbnailFunction = function(e) {
     const thumbnailButtonEl =  document.getElementsByClassName('thumbnailView')[0];
 
     thumbnailButtonEl.style["display"] = displaySetting;
-} 
+}
 
+//@listButton & @thumbnailButton: event listeners attached to "List View" and "Image View" button that trigger toggleImages() upon a click by the user
 listButton.addEventListener('click', toggleImages);
 thumbnailButton.addEventListener('click', toggleImages);
-
-

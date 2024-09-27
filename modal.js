@@ -3,7 +3,34 @@ const modal = document.getElementById("myModal");
 
 //const projects = document.querySelectorAll('.modal-trigger');
 
-const projectImage = document.getElementById('project-modal-image');
+const carouselImages = document.getElementsByClassName('modal-carousel-image');
+
+const imageBasePath = "buildingImg/WebProjectLowRes";
+
+const projects = {
+    carollCreek: {
+        images: [
+            `${imageBasePath}/CarollCreek4.jpg`,
+            `${imageBasePath}/CarollCreek5.jpg`,
+            `${imageBasePath}/CarollCreek6.jpg`,
+            `${imageBasePath}/CarollCreekHistoricDistrict1.jpg`,
+            `${imageBasePath}/CarollCreekHistoricDistrict2.jpg`,
+            `${imageBasePath}/CarollCreekHistoricDistrict3.jpg`,
+        ]
+    },
+    headquartersVA: {
+        images: [
+            `${imageBasePath}/CommericalHq3.jpg`,
+            `${imageBasePath}/CommericalHqVa.jpg`,
+        ]
+    },
+    masterplanGreenbelt: {
+        images: [
+            `${imageBasePath}/MasterplanGreenbeltMd1.jpg`,
+            `${imageBasePath}/img6.jpg`
+        ]
+    }
+}
 
 
 
@@ -23,10 +50,19 @@ for (let i = 0; i < projects.length; i++) {
 }
 */
 
-function openModal(imagePath) {
+function openModal(project) {
     //console.log({imagePath});
-    projectImage.src = imagePath;
-    modal.style.display = "block"
+
+    for (let i = 0; i < carouselImages.length; i++) {
+        const carouselImageEl = carouselImages[i];
+        // console.log({ project })
+        console.log( "project images:", projects[project].images[i])
+
+        const projectImage = projects[project].images[i];
+
+        carouselImageEl.src = projectImage || `${imageBasePath}/WebProjectLowResNames.jpg`;
+        modal.style.display = "block"
+    }
 }
 
 function closeModal() {

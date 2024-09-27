@@ -141,3 +141,23 @@ body {
   left: 0;
   bottom: 0;
 }
+
+.carousel-item img {
+  height: 500px;
+}
+
+.carousel-inner > .carousel-item > img {
+  width: fit-content;
+  height: fit-content;
+  max-width: 1000;
+}
+
+.carousel-inner > .carousel-item {
+  /* width: fit-content;
+  height: fit-content; */
+  max-width: 1300;
+  max-height: 700px;
+}
+.carousel-item > img {
+  object-fit: cover;
+}
