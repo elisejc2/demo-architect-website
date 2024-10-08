@@ -23,7 +23,7 @@
                     <li class="nav-item">
                         <a class="nav-link active" href="index.html">Sponseller Design Group</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item works-li">
                         <a class="nav-link active" aria-current="page" href="">Works</a>
                     </li>
                     <li class="nav-item dropdown inquiries-li">
@@ -97,19 +97,26 @@
     <div class="listView" style="display: none;">
         <ul id="worksList">
             <li><button class="modal-trigger" onclick="openModal('carollCreek')">Caroll Creek Historic District</button></li>
-
             <li><button class="modal-trigger" onclick="openModal('headquartersVA')">Commerical Headquarters VA</button></li>
             <li><button class="modal-trigger" onclick="openModal('masterplanGreenbelt')">Masterplan Greenbelt MD</button></li>
+            <li><button class="modal-trigger" onclick="openModal('bethesdaAve')">4747 Bethesda Ave</button></li>
+            <li><button class="modal-trigger" onclick="openModal('auburnAve')">Auburn Ave</button></li>
         </ul>
     </div>
     <!-- END LIST VIEW -->
     <!-- START THUMBNAIL VIEW -->
     <div class="row thumbnailView">
         <div id="column-1" class="column">
-            <div class="container-fluid overlay" onclick="openModal('carollCreek')">
+            <div id="carollCreek" class="container-fluid overlay" onclick="openModal('carollCreek')">
                 <img class="image" src="buildingImg/WebProjectLowRes/CarollCreek4.jpg" style="width:100%" alt="Caroll Creek Historic District" loading="lazy">
                 <div class="middle">
                     <span class="text ">Caroll Creek Historic District</span>
+                </div>
+            </div>
+            <div id="auburnAve" class="container-fluid overlay" onclick="openModal('auburnAve')">
+                <img class="image" src="buildingImg/WebProjectLowRes/howard-bouchevereau-042Srn0-82o-unsplash (1).jpg" style="width:100%" alt="Caroll Creek Historic District" loading="lazy">
+                <div class="middle">
+                    <span class="text">Auburn Ave</span>
                 </div>
             </div>
         </div>
@@ -128,15 +135,18 @@
                     <span class="text">Masterplan Greenbelt MD</span>
                 </div>
             </div>
+        </div>
+        <div id="column-4" class="column">
+            <div id="bethesdaAve" class="container-fluid overlay" onclick="openModal('bethesdaAve')">
+                <img class="image" src="buildingImg/WebProjectLowRes/lance-anderson-QdAAasrZhdk-unsplash.jpg" style="width:100%" loading="lazy">
+                <div class="middle">
+                    <span class="text">Bethesda Ave</span>
+                </div>
+            </div>
         </div> 
     </div> 
     <!-- END THUMBNAIL VIEW -->
-
     <!-- END WORKS -->
-
-
-
-
     <!-- START FOOTER -->
     <footer class="footer container-fluid bg-dark">
         <div class="container">
@@ -152,7 +162,10 @@
     <script src="works.js"></script>
     <script src="modal.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
+        Carousel.prototype.slide.emulateTransitionEnd(1000); 
+        
+    </script>
 
 </body>
 </html>

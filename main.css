@@ -76,7 +76,7 @@ li, ul, a:not(#apply-email, .buttons>*), .navbar, .nav-link, .navbar-nav {
   .masthead-message {
     justify-content: start;
   }
-  .inquiries-li {
+  .works-li {
     padding-left: 3rem;
   }
 }
