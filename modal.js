@@ -8,33 +8,35 @@ const carouselImages = document.getElementsByClassName('modal-carousel-image');/
 const imageBasePath = "buildingImg/WebProjectLowRes";
 
 const projects = {
-    carollCreek: {
+    carrollCreek: {
         images: [
-            // img count: 7
-            `${imageBasePath}/carollCreek1.jpg`,
-            `${imageBasePath}/carollCreek2.jpg`,
-            `${imageBasePath}/carollCreek3.jpg`,
-            `${imageBasePath}/carollCreek4.jpg`,
-            `${imageBasePath}/carollCreek5.jpg`,
-            `${imageBasePath}/carollCreek6.jpg`,
-            `${imageBasePath}/carollCreek7.jpg`
+            // img count: 8
+            `${imageBasePath}/carrollCreek1.jpeg`,
+            `${imageBasePath}/carrollCreek2.jpeg`,
+            `${imageBasePath}/carrollCreek3.jpeg`,
+            `${imageBasePath}/carrollCreek4.jpeg`,
+            `${imageBasePath}/carrollCreek5.jpeg`,
+            `${imageBasePath}/carrollCreek6.jpeg`,
+            `${imageBasePath}/carrollCreek7.jpeg`,
+            `${imageBasePath}/carrollCreek8.jpeg`
         ]
     },
-    headquartersVA: {
+    rosslynHq: {
         images: [
             // img count: 5
-            `${imageBasePath}/hqVA1.jpg`,
-            `${imageBasePath}/hqVA2.jpg`,
-            `${imageBasePath}/hqVA3.jpg`,
-            `${imageBasePath}/hqVA4.jpg`,
-            `${imageBasePath}/hqVA5.jpg`
+            `${imageBasePath}/rosslynHq1.jpeg`,
+            `${imageBasePath}/rosslynHq2.jpeg`,
+            `${imageBasePath}/rosslynHq3.jpeg`,
+            `${imageBasePath}/rosslynHq4.jpeg`,
+            `${imageBasePath}/rosslynHq5.jpeg`
         ]
     },
     masterplanGreenbelt: {
         images: [
-            // img count: 2
+            // img count: 3
             `${imageBasePath}/masterplanGreenbelt1.jpg`,
-            `${imageBasePath}/masterplanGreenbelt2.jpg`
+            `${imageBasePath}/masterplanGreenbelt2.jpeg`,
+            `${imageBasePath}/masterplanGreenbelt3.jpeg`
             
         ]
     },
@@ -42,14 +44,32 @@ const projects = {
         images: [
             //img count: 2
             `${imageBasePath}/bethesdaAve1.jpg`,
-            `${imageBasePath}/bethesdaAve2.jpg`
+            `${imageBasePath}/bethesdaAve2.jpeg`
         ]
     },
     auburnAve: {
         images: [
             // img count: 2
-            `${imageBasePath}/auburnAve1.jpg`,
-            `${imageBasePath}/auburnAve2.jpg`
+            `${imageBasePath}/auburnAve1.jpeg`,
+            `${imageBasePath}/auburnAve2.jpeg`
+        ]
+    },
+    wisconsinAve: {
+        images: [
+            //img count: 3
+            `${imageBasePath}/wisconsinAve1.jpeg`,
+            `${imageBasePath}/wisconsinAve2.jpeg`,
+            `${imageBasePath}/wisconsinAve3.jpeg`,
+        ]
+    },
+    sigSiteReston: {
+        images: [
+            //img count: 5
+            `${imageBasePath}/sigSiteReston1.jpeg`,
+            `${imageBasePath}/sigSiteReston2.jpeg`,
+            `${imageBasePath}/sigSiteReston3.jpeg`,
+            `${imageBasePath}/sigSiteReston4.jpeg`,
+            `${imageBasePath}/sigSiteReston5.jpeg`,
         ]
     }
 }

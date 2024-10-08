@@ -96,51 +96,66 @@
     <!-- START LIST VIEW -->
     <div class="listView" style="display: none;">
         <ul id="worksList">
-            <li><button class="modal-trigger" onclick="openModal('carollCreek')">Caroll Creek Historic District</button></li>
-            <li><button class="modal-trigger" onclick="openModal('headquartersVA')">Commerical Headquarters VA</button></li>
+            <li><button class="modal-trigger" onclick="openModal('carrollCreek')">Carroll Creek Historic District MD</button></li>
+            <li><button class="modal-trigger" onclick="openModal('rosslynHq')">Commerical Headquarters Rosslyn VA</button></li>
             <li><button class="modal-trigger" onclick="openModal('masterplanGreenbelt')">Masterplan Greenbelt MD</button></li>
-            <li><button class="modal-trigger" onclick="openModal('bethesdaAve')">4747 Bethesda Ave</button></li>
-            <li><button class="modal-trigger" onclick="openModal('auburnAve')">Auburn Ave</button></li>
+            <li><button class="modal-trigger" onclick="openModal('bethesdaAve')">4747 Bethesda Ave MD</button></li>
+            <li><button class="modal-trigger" onclick="openModal('auburnAve')">Auburn Ave MD</button></li>
+            <li><button class="modal-trigger" onclick="openModal('wisconsinAve')">
+           7272 Wisconsin Ave MD</button></li>
+           <li><button class="modal-trigger" onclick="openModal('sigSiteReston')">Signature Site Reston VA</button></li>
         </ul>
     </div>
     <!-- END LIST VIEW -->
     <!-- START THUMBNAIL VIEW -->
     <div class="row thumbnailView">
         <div id="column-1" class="column">
-            <div id="carollCreek" class="container-fluid overlay" onclick="openModal('carollCreek')">
-                <img class="image" src="buildingImg/WebProjectLowRes/CarollCreek4.jpg" style="width:100%" alt="Caroll Creek Historic District" loading="lazy">
+            <div id="carrollCreek" class="container-fluid overlay" onclick="openModal('carrollCreek')">
+                <img class="image" src="buildingImg/WebProjectLowRes/carrollCreek1.jpeg" style="width:100%" loading="lazy">
                 <div class="middle">
-                    <span class="text ">Caroll Creek Historic District</span>
+                    <span class="text ">Carroll Creek Historic District MD</span>
                 </div>
             </div>
             <div id="auburnAve" class="container-fluid overlay" onclick="openModal('auburnAve')">
-                <img class="image" src="buildingImg/WebProjectLowRes/howard-bouchevereau-042Srn0-82o-unsplash (1).jpg" style="width:100%" alt="Caroll Creek Historic District" loading="lazy">
+                <img class="image" src="buildingImg/WebProjectLowRes/auburnAve1.jpeg" style="width:100%" loading="lazy">
                 <div class="middle">
-                    <span class="text">Auburn Ave</span>
+                    <span class="text">Auburn Ave MD</span>
                 </div>
             </div>
         </div>
         <div id="column-2" class="column">
-            <div class="container-fluid overlay" onclick="openModal('headquartersVA')">
-                <img class="image" src="buildingImg/WebProjectLowRes/CommericalHqVa4.jpg" style="width:100%" loading="lazy">
+            <div id="rosslynHq" class="container-fluid overlay" onclick="openModal('rosslynHq')">
+                <img class="image" src="buildingImg/WebProjectLowRes/rosslynHq1.jpeg" style="width:100%" loading="lazy">
                 <div class="middle">
-                    <span class="text" >Commerical Headquarters VA</span>
+                    <span class="text" >Commerical Headquarters Rosslyn VA</span>
+                </div>
+            </div>
+            <div id="wisconsinAve" class="container-fluid overlay" onclick="openModal('wisconsinAve')">
+                <img class="image" src="buildingImg/WebProjectLowRes/wisconsinAve1.jpeg" style="width:100%" alt="Wisconsin Ave" loading="lazy">
+                <div class="middle">
+                    <span class="text">7272 Wisconsin Ave MD</span>
                 </div>
             </div>
         </div>  
         <div id="column-3" class="column">
-            <div class="container-fluid overlay" onclick="openModal('masterplanGreenbelt')">
-                <img class="image" src="buildingImg/WebProjectLowRes/MasterplanGreenbeltMd1.jpg" style="width:100%" loading="lazy">
+            <div id="masterplanGreenbelt" class="container-fluid overlay" onclick="openModal('masterplanGreenbelt')">
+                <img class="image" src="buildingImg/WebProjectLowRes/masterplanGreenbelt1.jpg" style="width:100%" loading="lazy">
                 <div class="middle">
                     <span class="text">Masterplan Greenbelt MD</span>
+                </div>
+            </div>
+            <div id="sigSiteReston" class="container-fluid overlay" onclick="openModal('sigSiteReston')">
+                <img class="image" src="buildingImg/WebProjectLowRes/sigSiteReston1.jpeg" style="width:100%" loading="lazy">
+                <div class="middle">
+                    <span class="text">Signature Site Reston VA</span>
                 </div>
             </div>
         </div>
         <div id="column-4" class="column">
             <div id="bethesdaAve" class="container-fluid overlay" onclick="openModal('bethesdaAve')">
-                <img class="image" src="buildingImg/WebProjectLowRes/lance-anderson-QdAAasrZhdk-unsplash.jpg" style="width:100%" loading="lazy">
+                <img class="image" src="buildingImg/WebProjectLowRes/bethesdaAve1.jpg" style="width:100%" loading="lazy">
                 <div class="middle">
-                    <span class="text">Bethesda Ave</span>
+                    <span class="text">4747 Bethesda Ave MD</span>
                 </div>
             </div>
         </div> 
