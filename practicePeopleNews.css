@@ -1,0 +1,25 @@
+.news-item {
+    margin-top: 4rem;
+}
+/* .bg-image {
+    background-image: url('/Users/elisecarlson/coding/demo-architect-website/buildingImg/fortMyer/fortMyer3.jpeg');
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh;
+    image-resolution: from-image;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.practice-text, .people-text, .news-text {
+    background-color: rgb(0, 0, 0);
+    padding-bottom: 3rem;
+}
+#ourPractice {
+    text-align: center;
+    padding-top: 3rem;
+}
+h2, h1, #people {
+    padding-top: 5rem;
+}
+

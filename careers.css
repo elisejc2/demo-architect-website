@@ -1,0 +1,25 @@
+#work-with-us {
+    padding: 4rem 0;
+}
+#job-opening {
+    padding: 1rem 0 3rem;
+}
+.item-title, #required-experience {
+    margin-top: 2rem;
+}
+.item-title {
+    font-weight: bold;
+}
+#container-jobs {
+    min-height: 100vh;
+}
+#apply-email {
+    color: white;
+}
+#apply-email:hover {
+    color: lightgray;
+}
+footer {
+    margin-top: 2rem;
+}
+
