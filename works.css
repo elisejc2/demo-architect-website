@@ -107,7 +107,6 @@ body {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 10px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100vw; /* Full width */
@@ -121,15 +120,12 @@ body {
 .modal-content {
   /* background-color: rgba(131, 131, 131, 0.4); */
   margin: auto;
-  padding: 20px;
+  padding: 10px 20px;
   width: 100vw; /* Adjust width based on screen size */
   max-width: 100vw; /* Ensure it doesn't get too large */
-  height: auto; /* Adjust height based on content */
-  max-height: 90vh; /* Keep the modal within 90% of the viewport height */
-  
+  height: 100%;
   position: relative;
   background-color: black; /* Background color for modal content */
-  padding: 20px;
   border-radius: 5px;
 }
 .modal-carousel-image {
@@ -168,6 +164,10 @@ body {
   cursor: pointer;
 }
 
+.carousel {
+  height: 90vh /* Modify the Bootstrap .carousel class so that the heigh of the carousel is limited to 90% of the viewport */
+}
+
 /* carousel */
 .carousel-item img {
   height: 500px;
@@ -183,8 +183,8 @@ body {
 .carousel-inner > .carousel-item {
   /* width: fit-content;
   height: fit-content; */
-  max-width: 1300;
-  max-height: 1300px;
+  /* max-width: 1300;
+  max-height: 1300px; */
 }
 .carousel-item > img {
   object-fit: contain;
