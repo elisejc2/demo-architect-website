@@ -165,10 +165,6 @@ li, ul, a:not(#apply-email, .buttons>*), .navbar, .nav-link, .navbar-nav {
 .sr-only, #carouselWorks > ol > li {
   display: none;
 }
-.carousel-inner > .carousel-item {
-  max-width: 1300;
-  max-height: 700px;
-}
 .carousel-item {
   transition-duration: 2s;
 }

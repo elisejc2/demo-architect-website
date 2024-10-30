@@ -342,11 +342,12 @@ function openModal(project) {
     
     carouselImageEls[0].parentElement.classList.add("active"); 
     modalEl.style.display = "block"
+    document.body.style.overflowY = "hidden"; // Eliminate scrollbar for page behind modal while modal is open
 }
 
 function closeModal() {
     modalEl.style.display = "none";
-    carouselIndex = 0; // reset carouselIndex tracker each time modal is closed
+    document.body.style.overflowY = "auto"; // Replace scrollbar for page behind modal when modal is closed
 }
 
 

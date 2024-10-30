@@ -133,20 +133,23 @@ body {
   height: auto; /* Maintain aspect ratio */
 }
 
-.carousel-inner {
-  margin-bottom: 50px; /* Adds space between carousel and text */
-}
+.carousel-inner { }
 
 .carousel-text {
   text-align: center; /* Center the text */
   margin-top: 20px;   /* Add space above the text */
 }
 
-#projectText {
+.projectText {
   font-size: 1.2rem;
   line-height: 1.5;
   color: #fff;  /* Make sure text is visible */
 }
+
+.project-text-wrapper {
+  padding: 10px;
+}
+
 /* The Close Button */
 .close {
   color: white;
@@ -165,7 +168,8 @@ body {
 }
 
 .carousel {
-  height: 90vh /* Modify the Bootstrap .carousel class so that the heigh of the carousel is limited to 90% of the viewport */
+  height: 90vh; /* Modify the Bootstrap .carousel class so that the heigh of the carousel is limited to 90% of the viewport */
+  overflow-y: scroll; /* Allow scrolling within the carousel */
 }
 
 /* carousel */
