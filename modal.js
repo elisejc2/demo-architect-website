@@ -327,15 +327,14 @@ const projects = {
 function openModal(project) {
     //handleMobileDeviceRenderingAdjustments();
     const currentPrj = projects[project];
-    const numberOfItemsInPrj = currentPrj.length;
 
     for (let i = 0; i < carouselImageEls.length; i++) {
-        const currentPrjItem = currentPrj[i % numberOfItemsInPrj]; //the modulo ensures the array wraps back to the first img if i exceeds length
+        const currentPrjItem = currentPrj[i % currentPrj.length]; //the modulo ensures the array wraps back to the first img if i exceeds length
         const { image, text } = currentPrjItem; // Shorthand for currentPrjItem.image and currentPrjItem.text ... this is called "object destructuring"
 
-        const carouselImageEl = carouselImageEls[i % numberOfItemsInPrj]; // Grabs a specific carousel image DOM element
-        const carouselTextEl = carouselTextEls[i % numberOfItemsInPrj]; // Grabs a specific carousel text DOM element
-        
+        const carouselImageEl = carouselImageEls[i]; // Grabs a specific carousel image DOM element
+        const carouselTextEl = carouselTextEls[i]; // Grabs a specific carousel text DOM element
+
         carouselImageEl.src = image;
         carouselImageEl.parentElement.classList.remove("active");
         carouselTextEl.innerHTML = text.replace(/\n/g, "<br>");
