@@ -318,13 +318,11 @@ const projects = {
 }
 
 function handleMobileDeviceAndTabletRenderingAdjustments() {
-    if (isMobileDeviceOrTablet) {
-        modal.style.height = "auto";
-    }
+    modalEl.style.height = "100%"; // Allows pop-up to take up the full viewport
+    document.getElementById("carousel-container").scrollTop = 0; // Scrolls to the top of carousel, since sometimes the view is set to the center
 }
 
 function openModal(project) {
-    handleMobileDeviceAndTabletRenderingAdjustments();
     const currentPrj = projects[project];
 
     for (let i = 0; i < carouselImageEls.length; i++) {
@@ -342,6 +340,10 @@ function openModal(project) {
     carouselImageEls[0].parentElement.classList.add("active"); 
     modalEl.style.display = "block"
     document.body.style.overflowY = "hidden"; // Eliminate scrollbar for page behind modal while modal is open
+
+    if (mobileAndTabletCheck) {
+        handleMobileDeviceAndTabletRenderingAdjustments(); // TODO: fix the code to scroll to the top of the modal on mobile
+    }
 }
 
 function closeModal() {
