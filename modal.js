@@ -52,7 +52,7 @@ const projects = {
             text: "Carroll Creek Historic District"
         }
     ],
-    // img count: 13
+    // img count: 20
     rosslynHq: [
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq7.jpeg`,
@@ -104,6 +104,38 @@ const projects = {
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/view2-sliding door.jpg`,
+            text: "National Corporate Headquarter"
+        },
+        {
+            image: `${paths.base}/${paths.rosslynHq}/1201_sk3_inverted.png`,
+            text: "National Corporate Headquarter"
+        },
+        {
+            image: `${paths.base}/${paths.rosslynHq}/1201_sk6_inverted.png`,
+            text: "National Corporate Headquarter"
+        },
+        {
+            image: `${paths.base}/${paths.rosslynHq}/1201_sk3.png`,
+            text: "National Corporate Headquarter"
+        },
+        {
+            image: `${paths.base}/${paths.rosslynHq}/1201_sk6_inverted.png`,
+            text: "National Corporate Headquarter"
+        },
+        {
+            image: `${paths.base}/${paths.rosslynHq}/1201_sk6.png`,
+            text: "National Corporate Headquarter"
+        },
+        {
+            image: `${paths.base}/${paths.rosslynHq}/amesDiagrams.png`,
+            text: "National Corporate Headquarter"
+        },
+        {
+            image: `${paths.base}/${paths.rosslynHq}/CC_TOY_MODEL_VIEW2.png`,
+            text: "National Corporate Headquarter"
+        },
+        {
+            image: `${paths.base}/${paths.rosslynHq}/CC_TOY_MODEL_VIEW3.png`,
             text: "National Corporate Headquarter"
         }
     ],
