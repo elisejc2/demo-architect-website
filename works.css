@@ -139,13 +139,19 @@ body {
   text-align: center; /* Center the text */
   margin-top: 20px;   /* Add space above the text */
 }
-
-.projectText {
+.project-text-wrapper > span {
+  display: block;
+}
+.projectTitle {
+  font-size: 1.5rem;
+}
+.projectDesigned {
+  font-style: italic;
+}
+.projectText, .projectDesigned, .projectOverview  {
   font-size: 1.2rem;
   line-height: 1.5;
-  color: #fff;  /* Make sure text is visible */
 }
-
 .project-text-wrapper {
   padding: 10px;
 }
