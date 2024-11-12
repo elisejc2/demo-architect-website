@@ -133,7 +133,7 @@ body {
   height: auto; /* Maintain aspect ratio */
 }
 
-.carousel-inner { }
+/* .carousel-inner { } */
 
 .carousel-text {
   text-align: center; /* Center the text */
@@ -190,12 +190,12 @@ body {
   max-width: 1000;
 }
 
-.carousel-inner > .carousel-item {
-  /* width: fit-content;
-  height: fit-content; */
-  /* max-width: 1300;
-  max-height: 1300px; */
-}
+/* .carousel-inner > .carousel-item {
+  width: fit-content;
+  height: fit-content;
+  max-width: 1300;
+  max-height: 1300px;
+} */
 .carousel-item > img {
   object-fit: contain;
 }
