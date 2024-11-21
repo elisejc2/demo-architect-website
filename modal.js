@@ -582,7 +582,14 @@ function openModal(project) {
         carouselImageEl.src = image;
         carouselImageEl.parentElement.classList.remove("active");
         carouselTitleEl.innerHTML = title;
-        carouselDesignedEl.innerHTML = designed;
+        
+        if (designed) {
+            carouselDesignedEl.innerHTML = designed;
+            carouselDesignedEl.style.display = ""; // Ensure it's visible when there is content
+        } else {
+            carouselDesignedEl.style.display = "none"; // Hide when there is no content
+        }
+        
         carouselOverviewEl.innerHTML = overview.replace(/\n/g, "<br>").replace(/\t/g, "<code>&#9;&#9;</code>"); // 2nd .replace will subsitutde \t for *two* HTML tab chars. Note that the overview element is a <pre> tag to preserve whitespace formatting
         carouselTextEl.innerHTML = text.replace(/\n/g, "<br>");
     }
