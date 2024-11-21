@@ -24,7 +24,8 @@ const paths = {
     fortMyer: "fortMyer",
     walterReed: "walterReed",
     unionMarket: "unionMarket",
-    silverSpring: "silverSpring"
+    silverSpring: "silverSpring",
+    oldGeorgetownRd: "oldGeorgetownRd"
 };
 
 const projects = {
@@ -558,6 +559,23 @@ const projects = {
             overview: "",
             text: ""
         }
+    ],
+    //img count: 0
+    oldGeorgetownRd: [
+        {
+            image: `${paths.base}/${paths.oldGeorgetownRd}/`,
+            title: "7607 Old Georgetown Rd",
+            designed: "",
+            overview: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.oldGeorgetownRd}/`,
+            title: "7607 Old Georgetown Rd",
+            designed: "",
+            overview: "",
+            text: ""
+        }
     ]
 }
 
@@ -582,7 +600,7 @@ function openModal(project) {
         carouselImageEl.src = image;
         carouselImageEl.parentElement.classList.remove("active");
         carouselTitleEl.innerHTML = title;
-        
+
         if (designed) {
             carouselDesignedEl.innerHTML = designed;
             carouselDesignedEl.style.display = ""; // Ensure it's visible when there is content
