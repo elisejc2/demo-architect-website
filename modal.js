@@ -454,28 +454,27 @@ const projects = {
     fortMyer: [
         {
             image: `${paths.base}/${paths.fortMyer}/fortMyer3.jpeg`,
-            title: "Silver Spring Vision",
-            designed: "",
-            overview: "Silver Spring, Maryland\nPlan completion: 2022.",
-            text: "Invited by the local jurisdiction to assist in a master plan update, the project involved an urban vision for Silver Spring Maryland, a close in Washington DC urban center. Centered on a multi-modal transit hub this vision adds a much needed green park over the transit center along with increased pedestrian access to green space and well defined streets. The plan includes formal strengthening and densification of the adjacent Ripley District neighborhood."
+            title: "1820 Fort Myer",
+            designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
+            overview: "The focus of this redevelopment project was implementing a mid-block public passage as part of a master plan that links the neighborhood to the adjacent transit center. The building forms are designed to maximize natural light along this public passage and scale the buildings appropriately. An undulating, wrinkled façade plane allows for outdoor balconies to be inset into the majority of residences. Green plantings enhance the public realm and are incorporated into the balconies."
         },
         {
             image: `${paths.base}/${paths.fortMyer}/fortMyer1.jpeg`,
-            title: "Silver Spring Vision",
+            title: "1820 Fort Myer",
             designed: "",
             overview: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.fortMyer}/fortMyer2.jpeg`,
-            title: "Silver Spring Vision",
+            title: "1820 Fort Myer",
             designed: "",
             overview: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.fortMyer}/fortMyer4.jpg`,
-            title: "Silver Spring Vision",
+            title: "1820 Fort Myer",
             designed: "",
             overview: "",
             text: ""
@@ -539,21 +538,21 @@ const projects = {
     //img count: 3
     silverSpring: [
         {
-            image: `${paths.base}/${paths.silverSpring}/silverSpring2.jpeg`,
+            image: `${paths.base}/${paths.silverSpring}/silverSpring2_300pxin.jpeg`,
             title: "Silver Spring Vision",
             designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates ",
             overview: "Silver Spring, Maryland\nPlan completion: 2022.",
             text: "Invited by the local jurisdiction to assist in a master plan update, the project involved an urban vision for Silver Spring Maryland, a close in Washington DC urban center. Centered on a multi-modal transit hub this vision adds a much needed green park over the transit center along with increased pedestrian access to green space and well defined streets. The plan includes formal strengthening and densification of the adjacent Ripley District neighborhood."
         },
         {
-            image: `${paths.base}/${paths.silverSpring}/silverSpring4.jpeg`,
+            image: `${paths.base}/${paths.silverSpring}/silverSpring4_300pxin.jpeg`,
             title: "Silver Spring Vision",
             designed: "",
             overview: "",
             text: ""
         },
         {
-            image: `${paths.base}/${paths.silverSpring}/silverSpring7.jpeg`,
+            image: `${paths.base}/${paths.silverSpring}/silverSpring7_300pxin.jpeg`,
             title: "Silver Spring Vision",
             designed: "",
             overview: "",
