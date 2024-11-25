@@ -360,7 +360,7 @@ const projects = {
             text: "An existing building was adaptively reused and expanded to become the headquarters location of an international organization. The existing and new wings were developed in a modular fashion around an atrium space inserted into the existing building. Plantings and natural light between the ‘neighborhoods’ are part of an overall strategy to bring nature into the building and part of the everyday work environment. Natural light is brought in through deep clerestories and biophilic inserts that minimize energy used for lighting. On site energy generation  includes geothermal wells and solar panels, and provides approximately 60% of the total energy needed annually."
         },
         {
-            image: `${paths.base}/${paths.vaHq}/vaHq2.jpeg`,
+            image: `${paths.base}/${paths.vaHq}/vaHq2_300pxin.jpeg`,
             title: "International Corporate Headquarters",
             designed: "",
             overview: "",
@@ -456,7 +456,8 @@ const projects = {
             image: `${paths.base}/${paths.fortMyer}/fortMyer3.jpeg`,
             title: "1820 Fort Myer",
             designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
-            overview: "The focus of this redevelopment project was implementing a mid-block public passage as part of a master plan that links the neighborhood to the adjacent transit center. The building forms are designed to maximize natural light along this public passage and scale the buildings appropriately. An undulating, wrinkled façade plane allows for outdoor balconies to be inset into the majority of residences. Green plantings enhance the public realm and are incorporated into the balconies."
+            overview: "Rosslyn, Virginia\nProgram: 750 Residences, Retail\nCompletion: Anticipated 2028",
+            text: "The focus of this redevelopment project was implementing a mid-block public passage as part of a master plan that links the neighborhood to the adjacent transit center. The building forms are designed to maximize natural light along this public passage and scale the buildings appropriately. An undulating, wrinkled façade plane allows for outdoor balconies to be inset into the majority of residences. Green plantings enhance the public realm and are incorporated into the balconies."
         },
         {
             image: `${paths.base}/${paths.fortMyer}/fortMyer1.jpeg`,
@@ -562,14 +563,28 @@ const projects = {
     //img count: 0
     oldGeorgetownRd: [
         {
-            image: `${paths.base}/${paths.oldGeorgetownRd}/`,
+            image: `${paths.base}/${paths.oldGeorgetownRd}/oldGeorgetownRdCornerPerspective.jpeg`,
             title: "7607 Old Georgetown Rd",
             designed: "",
             overview: "",
             text: ""
         },
         {
-            image: `${paths.base}/${paths.oldGeorgetownRd}/`,
+            image: `${paths.base}/${paths.oldGeorgetownRd}/oldGeorgetownRdFormDevelopmentDiagrams.jpeg`,
+            title: "7607 Old Georgetown Rd",
+            designed: "",
+            overview: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.oldGeorgetownRd}/oldGeorgetownRdBuildingElevations.jpeg`,
+            title: "7607 Old Georgetown Rd",
+            designed: "",
+            overview: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.oldGeorgetownRd}/oldGeorgetownRdBuildingElevations2.jpeg`,
             title: "7607 Old Georgetown Rd",
             designed: "",
             overview: "",
