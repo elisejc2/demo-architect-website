@@ -24,15 +24,17 @@ const paths = {
     fortMyer: "fortMyer",
     walterReed: "walterReed",
     unionMarket: "unionMarket",
-    silverSpring: "silverSpring"
+    silverSpring: "silverSpring",
+    oldGeorgetownRd: "oldGeorgetownRd"
 };
 
 const projects = {
-    // img count: 6
+    //img count: 9
     carrollCreek: [
         {
             image:`${paths.base}/${paths.carrollCreek}/c04_ALLSAINTS.jpg`,
             title: "Carroll Creek Historic District",
+            designed: "",
             overview: "Frederick, Maryland \nAnticipated Completion: 2026\nProgram: 230 Residences, Retail",
             text: `Located in a historic district on the National Register of Historic Places, the project’s design responds to the industrial legacy of its site including a former rail station, warehouses, and manufacturing buildings. The site is located on the historic Carroll Creek canal and public park. The building concept consists of three wings organized around three outdoor courtyards. The material selections include clay masonry consistent with the historic context and metal panels that recall historic metal roofscapes in Frederick. The program includes retail and residential uses.`
         },
@@ -70,9 +72,30 @@ const projects = {
             designed: "",
             overview: "",
             text: ""
+        },
+        {
+            image: `${paths.base}/${paths.carrollCreek}/CC_TOY_MODEL_VIEW3.png`,
+            title: "Carroll Creek Historic District",
+            designed: "",
+            overview: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.carrollCreek}/CC_TOY_MODEL_VIEW2.png`,
+            title: "Carroll Creek Historic District",
+            designed: "",
+            overview: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.carrollCreek}/amesDiagrams.png`,
+            title: "Carroll Creek Historic District",
+            designed: "",
+            overview: "",
+            text: ""
         }
     ],
-    // img count: 20
+    // img count: 18
     rosslynHq: [
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq7.jpeg`,
@@ -199,35 +222,14 @@ const projects = {
             designed: "",
             overview: "",
             text: ""
-        },
-        {
-            image: `${paths.base}/${paths.rosslynHq}/amesDiagrams.png`,
-            title: "National Corporate Headquarters",
-            designed: "",
-            overview: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.rosslynHq}/CC_TOY_MODEL_VIEW2.png`,
-            title: "National Corporate Headquarters",
-            designed: "",
-            overview: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.rosslynHq}/CC_TOY_MODEL_VIEW3.png`,
-            title: "National Corporate Headquarters",
-            designed: "",
-            overview: "",
-            text: ""
         }
     ],
     // img count: 2
     greenbelt: [       
         {
             image: `${paths.base}/${paths.greenbelt}/masterplanGreenbelt1.jpg`,
-            designed: "",
             title: "Historic Greenbelt Master Plan",
+            designed: "",
             overview: "Greenbelt, Maryland\nMaster Plan completion:  December 2024\nProgram: Office, Hotel, Residential, Townhomes",
             text: "The redevelopment of this site references the legacy of the historic greenbelt town center planned during the public works era in the 1930’s. The plan converts a suburban office park and puts the pedestrian and public realm at the center of its densification.  A combination of uses is added to the existing office buildings including office, residential, hotel and retail. The plan is street focused plan and integrates pedestrians and vehicles in a network of streets, green spaces, gardens, and parks in this historically significant neighborhood."
         },
@@ -359,7 +361,7 @@ const projects = {
             text: "An existing building was adaptively reused and expanded to become the headquarters location of an international organization. The existing and new wings were developed in a modular fashion around an atrium space inserted into the existing building. Plantings and natural light between the ‘neighborhoods’ are part of an overall strategy to bring nature into the building and part of the everyday work environment. Natural light is brought in through deep clerestories and biophilic inserts that minimize energy used for lighting. On site energy generation  includes geothermal wells and solar panels, and provides approximately 60% of the total energy needed annually."
         },
         {
-            image: `${paths.base}/${paths.vaHq}/vaHq2.jpeg`,
+            image: `${paths.base}/${paths.vaHq}/vaHq2_300pxin.jpeg`,
             title: "International Corporate Headquarters",
             designed: "",
             overview: "",
@@ -421,18 +423,11 @@ const projects = {
     //img count: 4
     pStreet880:[
         {
-            image: `${paths.base}/${paths.pStreet}/pStreet880_5.jpeg`,
+            image: `${paths.base}/${paths.pStreet}/pStreet880_2.jpg`,
             title: "880 P Street NW",
             designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates.",
             overview: "Washington DC, Shaw neighborhood\nCompletion: 2015\nProgram: Residential, Retail",
             text: "As the final phase of the City Market at O Street development, this project restores the urban fabric along the Ninth and P street frontages. A series of vertically proportioned volumes face the historic townhomes characteristic of the historic Shaw neighborhood.  Upper story setbacks emphasize the scale along the street frontage. Exterior materials include deeply coffered facades in anodized aluminum in combination with softly textured white masonry. Direct entrances from the street are provided along P street, and outdoor balconies and terraces are incorporated throughout."
-        },
-        {
-            image: `${paths.base}/${paths.pStreet}/pStreet880_2.jpg`,
-            title: "880 P Street NW",
-            designed: "",
-            overview: "",
-            text: ""
         },
         {
             image: `${paths.base}/${paths.pStreet}/pStreet880_1.jpg`,
@@ -447,34 +442,41 @@ const projects = {
             designed: "",
             overview: "",
             text: ""
+        },
+        {
+            image: `${paths.base}/${paths.pStreet}/pStreet880_5.jpeg`,
+            title: "880 P Street NW",
+            designed: "",
+            overview: "",
+            text: ""
         }
     ],
     //img count: 4
     fortMyer: [
         {
             image: `${paths.base}/${paths.fortMyer}/fortMyer3.jpeg`,
-            title: "Silver Spring Vision",
-            designed: "",
-            overview: "Silver Spring, Maryland\nPlan completion: 2022.",
-            text: "Invited by the local jurisdiction to assist in a master plan update, the project involved an urban vision for Silver Spring Maryland, a close in Washington DC urban center. Centered on a multi-modal transit hub this vision adds a much needed green park over the transit center along with increased pedestrian access to green space and well defined streets. The plan includes formal strengthening and densification of the adjacent Ripley District neighborhood."
+            title: "1820 Fort Myer",
+            designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
+            overview: "Rosslyn, Virginia\nProgram: 750 Residences, Retail\nCompletion: Anticipated 2028",
+            text: "The focus of this redevelopment project was implementing a mid-block public passage as part of a master plan that links the neighborhood to the adjacent transit center. The building forms are designed to maximize natural light along this public passage and scale the buildings appropriately. An undulating, wrinkled façade plane allows for outdoor balconies to be inset into the majority of residences. Green plantings enhance the public realm and are incorporated into the balconies."
         },
         {
             image: `${paths.base}/${paths.fortMyer}/fortMyer1.jpeg`,
-            title: "Silver Spring Vision",
+            title: "1820 Fort Myer",
             designed: "",
             overview: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.fortMyer}/fortMyer2.jpeg`,
-            title: "Silver Spring Vision",
+            title: "1820 Fort Myer",
             designed: "",
             overview: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.fortMyer}/fortMyer4.jpg`,
-            title: "Silver Spring Vision",
+            title: "1820 Fort Myer",
             designed: "",
             overview: "",
             text: ""
@@ -485,9 +487,9 @@ const projects = {
         {
             image: `${paths.base}/${paths.walterReed}/walterReedMasterplan1.jpg`,
             title: "Walter Reed",
-            designed: "",
-            overview: "",
-            text: ""
+            designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
+            overview: "Washington, DC\nProgram:  Planning and Adaptive Re-use of 70 acres",
+            text: "This master plan was a competition entry for the development of a formerly military hospital campus. The master plan included the adaptive re-use of multiple existing buildings and the formation of multiple new use areas including a residential neighborhood, a new commercial district including research facilities and recreational and cultural uses utilizing an expansive natural park area."
         },
         {
             image: `${paths.base}/${paths.walterReed}/walterReedMasterplan2.jpg`,
@@ -514,22 +516,22 @@ const projects = {
     //img count: 3
     unionMarket: [
         {
-            image: `${paths.base}/${paths.unionMarket}/unionMarket1.jpg`,
+            image: `${paths.base}/${paths.unionMarket}/unionMarket2.jpeg`,
+            title: "Union Market",
+            designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
+            overview: "Silver Spring, Maryland\nResidential Building Completion: 2018",
+            text: "A residential and commercial building were designed as part of an emerging district in northeast Washington DC.  The unique architectural approach was a response to the industrial character of the existing warehouse district, long an integral part of the food distribution network of the city.  The commercial building is designed to span a new food market that remains operational during construction.  The residential building provides four modules that rise above an existing warehouse that is repurposed as a food market."
+        },
+        {
+            image: `${paths.base}/${paths.unionMarket}/unionMarket3.jpg`,
             title: "Union Market",
             designed: "",
             overview: "",
             text: ""
         },
         {
-            image: `${paths.base}/${paths.unionMarket}/unionMarket2.jpg`,
-            text: "Union Market",
-            designed: "",
-            overview: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.unionMarket}/unionMarket3.jpg`,
-            text: "Union Market",
+            image: `${paths.base}/${paths.unionMarket}/unionMarket1.jpg`,
+            title: "Union Market",
             designed: "",
             overview: "",
             text: ""
@@ -538,22 +540,53 @@ const projects = {
     //img count: 3
     silverSpring: [
         {
-            image: `${paths.base}/${paths.silverSpring}/silverSpring2.jpeg`,
+            image: `${paths.base}/${paths.silverSpring}/silverSpring2_300pxin.jpeg`,
             title: "Silver Spring Vision",
             designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates ",
             overview: "Silver Spring, Maryland\nPlan completion: 2022.",
             text: "Invited by the local jurisdiction to assist in a master plan update, the project involved an urban vision for Silver Spring Maryland, a close in Washington DC urban center. Centered on a multi-modal transit hub this vision adds a much needed green park over the transit center along with increased pedestrian access to green space and well defined streets. The plan includes formal strengthening and densification of the adjacent Ripley District neighborhood."
         },
         {
-            image: `${paths.base}/${paths.silverSpring}/silverSpring4.jpeg`,
+            image: `${paths.base}/${paths.silverSpring}/silverSpring4_300pxin.jpeg`,
             title: "Silver Spring Vision",
             designed: "",
             overview: "",
             text: ""
         },
         {
-            image: `${paths.base}/${paths.silverSpring}/silverSpring7.jpeg`,
+            image: `${paths.base}/${paths.silverSpring}/silverSpring7_300pxin.jpeg`,
             title: "Silver Spring Vision",
+            designed: "",
+            overview: "",
+            text: ""
+        }
+    ],
+    //img count: 4
+    oldGeorgetownRd: [
+        {
+            image: `${paths.base}/${paths.oldGeorgetownRd}/oldGeorgetownRdCornerPerspective.jpeg`,
+            title: "7607 Old Georgetown Rd",
+            designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
+            overview: "Bethesda, Md\nProgram:  Residential, Retail",
+            text: "A highly constrained urban site  in the heart of this neighborhood required careful planning and massing.  The volumes address both the primary arterial and the adjacent curving tree lined frontage to the east.  The architects utilized modest masonry materials and worked with window articulation, pattern and color to provide design value using conventional construction practices."
+        },
+        {
+            image: `${paths.base}/${paths.oldGeorgetownRd}/oldGeorgetownRdFormDevelopmentDiagrams.jpeg`,
+            title: "7607 Old Georgetown Rd",
+            designed: "",
+            overview: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.oldGeorgetownRd}/oldGeorgetownRdBuildingElevations.jpeg`,
+            title: "7607 Old Georgetown Rd",
+            designed: "",
+            overview: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.oldGeorgetownRd}/oldGeorgetownRdBuildingElevations2.jpeg`,
+            title: "7607 Old Georgetown Rd",
             designed: "",
             overview: "",
             text: ""
@@ -582,7 +615,14 @@ function openModal(project) {
         carouselImageEl.src = image;
         carouselImageEl.parentElement.classList.remove("active");
         carouselTitleEl.innerHTML = title;
-        carouselDesignedEl.innerHTML = designed;
+
+        if (designed) {
+            carouselDesignedEl.innerHTML = designed;
+            carouselDesignedEl.style.display = ""; // Ensure it's visible when there is content
+        } else {
+            carouselDesignedEl.style.display = "none"; // Hide when there is no content
+        }
+        
         carouselOverviewEl.innerHTML = overview.replace(/\n/g, "<br>").replace(/\t/g, "<code>&#9;&#9;</code>"); // 2nd .replace will subsitutde \t for *two* HTML tab chars. Note that the overview element is a <pre> tag to preserve whitespace formatting
         carouselTextEl.innerHTML = text.replace(/\n/g, "<br>");
     }

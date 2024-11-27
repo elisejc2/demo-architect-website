@@ -2,7 +2,7 @@
     margin-top: 4rem;
 }
 /* .bg-image {
-    background-image: url('/Users/elisecarlson/coding/demo-architect-website/buildingImg/fortMyer/fortMyer3.jpeg');
+    background-image: url('/Users/elisecarlson/coding/demo-architect-website/peopleImg/peopleColor.jpeg');
     background-attachment: fixed;
     position: relative;
     min-height: 100vh;
@@ -13,13 +13,53 @@
 } */
 .practice-text, .people-text, .news-text {
     background-color: rgb(0, 0, 0);
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 #ourPractice {
     text-align: center;
     padding-top: 3rem;
 }
-h2, h1, #people {
-    padding-top: 5rem;
+h1 {
+    padding-top: 1.5rem;
 }
-
+/* .groupImg {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    padding-bottom: 4rem;
+    display: flex;
+    margin: auto;
+} */
+#peopleImg, #practiceImg {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    
+}
+@media screen and (min-width: 992px) {
+    #imgCol {
+        padding-right: 2rem;
+        float: right;
+    }
+    #peopleImg, #practiceImg {
+        margin-left: auto;
+    }
+}
+@media screen and (max-width: 991.98px) {
+    #imgCol {
+        display: flex;
+    }
+    #peopleImg, #practiceImg {
+        margin: auto;
+        padding-bottom: 2rem;
+    }
+}
+.textCol {
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+#peopleTextCol {
+    justify-content: center;
+}

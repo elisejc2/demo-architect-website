@@ -133,7 +133,7 @@ body {
   height: auto; /* Maintain aspect ratio */
 }
 
-.carousel-inner { }
+/* .carousel-inner { } */
 
 .carousel-text {
   text-align: center; /* Center the text */
@@ -159,11 +159,14 @@ body {
 /* The Close Button */
 .close {
   color: white;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  /* padding-bottom: 10px; */
+  flex-direction: row-reverse;
+  -ms-flex-direction: column-reverse;
+  font-size: 3rem;
+  font-weight: lighter;
+  padding-right: 0.5rem;
   cursor: pointer;
+  display: inline-flex; 
+  -ms-display: inline-flex; /* Add prefixes for older browsers */
 }
 
 .close:hover,
@@ -190,12 +193,12 @@ body {
   max-width: 1000;
 }
 
-.carousel-inner > .carousel-item {
-  /* width: fit-content;
-  height: fit-content; */
-  /* max-width: 1300;
-  max-height: 1300px; */
-}
+/* .carousel-inner > .carousel-item {
+  width: fit-content;
+  height: fit-content;
+  max-width: 1300;
+  max-height: 1300px;
+} */
 .carousel-item > img {
   object-fit: contain;
 }
@@ -204,10 +207,4 @@ body {
 .carousel-inner > .carousel-item {
   transition: transform .3s ease-in-out;
 } 
-
 /* END POPUP MODAL */
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-}
