@@ -388,7 +388,7 @@ const projects = {
             image: `${paths.base}/${paths.cityRidge}/cityRidge1.jpg`,
             title: "City Ridge",
             designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates.",
-            overview: "Washington, DC\n\nMaster Plan completion: 2018\tConstruction completion: 2022\nProgram: Office, Retail, 700 Residences",
+            overview: "Washington, DC\nMaster Plan completion: 2018\tConstruction completion: 2022\nProgram: Office, Retail, 700 Residences",
             text: "This project began with a masterplan for the densification of a site formerly home to Fannie Mae’s headquarters in northwest Washington DC.  A series of new, intimate walking streets surround the historic existing building and connect to the adjacent neighborhoods to the north and south. Intimately scaled curb less streets are defined by the eight new buildings and open spaces that form the public realm. A varied palette of materials provides architectural interest within a distinctly industrial, timeless vocabulary."
         },
         {
