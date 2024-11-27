@@ -486,9 +486,9 @@ const projects = {
         {
             image: `${paths.base}/${paths.walterReed}/walterReedMasterplan1.jpg`,
             title: "Walter Reed",
-            designed: "",
-            overview: "",
-            text: ""
+            designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
+            overview: "Washington, DC\nProgram:  Planning and Adaptive Re-use of 70 acres",
+            text: "This master plan was a competition entry for the development of a formerly military hospital campus. The master plan included the adaptive re-use of multiple existing buildings and the formation of multiple new use areas including a residential neighborhood, a new commercial district including research facilities and recreational and cultural uses utilizing an expansive natural park area."
         },
         {
             image: `${paths.base}/${paths.walterReed}/walterReedMasterplan2.jpg`,
@@ -515,11 +515,11 @@ const projects = {
     //img count: 3
     unionMarket: [
         {
-            image: `${paths.base}/${paths.unionMarket}/unionMarket1.jpg`,
+            image: `${paths.base}/${paths.unionMarket}/unionMarket2.jpg`,
             title: "Union Market",
-            designed: "",
-            overview: "",
-            text: ""
+            designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
+            overview: "Silver Spring, Maryland\nResidential Building Completion: 2018",
+            text: "A residential and commercial building were designed as part of an emerging district in northeast Washington DC.  The unique architectural approach was a response to the industrial character of the existing warehouse district, long an integral part of the food distribution network of the city.  The commercial building is designed to span a new food market that remains operational during construction.  The residential building provides four modules that rise above an existing warehouse that is repurposed as a food market."
         },
         {
             image: `${paths.base}/${paths.unionMarket}/unionMarket2.jpg`,
@@ -529,7 +529,7 @@ const projects = {
             text: ""
         },
         {
-            image: `${paths.base}/${paths.unionMarket}/unionMarket3.jpg`,
+            image: `${paths.base}/${paths.unionMarket}/unionMarket1.jpg`,
             text: "Union Market",
             designed: "",
             overview: "",
@@ -560,14 +560,14 @@ const projects = {
             text: ""
         }
     ],
-    //img count: 0
+    //img count: 4
     oldGeorgetownRd: [
         {
             image: `${paths.base}/${paths.oldGeorgetownRd}/oldGeorgetownRdCornerPerspective.jpeg`,
             title: "7607 Old Georgetown Rd",
-            designed: "",
-            overview: "",
-            text: ""
+            designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
+            overview: "Bethesda, Md\nProgram:  Residential, Retail",
+            text: "A highly constrained urban site  in the heart of this neighborhood required careful planning and massing.  The volumes address both the primary arterial and the adjacent curving tree lined frontage to the east.  The architects utilized modest masonry materials and worked with window articulation, pattern and color to provide design value using conventional construction practices."
         },
         {
             image: `${paths.base}/${paths.oldGeorgetownRd}/oldGeorgetownRdFormDevelopmentDiagrams.jpeg`,
