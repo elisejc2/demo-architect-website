@@ -34,6 +34,7 @@ const projects = {
         {
             image:`${paths.base}/${paths.carrollCreek}/c04_ALLSAINTS.jpg`,
             title: "Carroll Creek Historic District",
+            designed: "",
             overview: "Frederick, Maryland \nAnticipated Completion: 2026\nProgram: 230 Residences, Retail",
             text: `Located in a historic district on the National Register of Historic Places, the project’s design responds to the industrial legacy of its site including a former rail station, warehouses, and manufacturing buildings. The site is located on the historic Carroll Creek canal and public park. The building concept consists of three wings organized around three outdoor courtyards. The material selections include clay masonry consistent with the historic context and metal panels that recall historic metal roofscapes in Frederick. The program includes retail and residential uses.`
         },
@@ -227,8 +228,8 @@ const projects = {
     greenbelt: [       
         {
             image: `${paths.base}/${paths.greenbelt}/masterplanGreenbelt1.jpg`,
-            designed: "",
             title: "Historic Greenbelt Master Plan",
+            designed: "",
             overview: "Greenbelt, Maryland\nMaster Plan completion:  December 2024\nProgram: Office, Hotel, Residential, Townhomes",
             text: "The redevelopment of this site references the legacy of the historic greenbelt town center planned during the public works era in the 1930’s. The plan converts a suburban office park and puts the pedestrian and public realm at the center of its densification.  A combination of uses is added to the existing office buildings including office, residential, hotel and retail. The plan is street focused plan and integrates pedestrians and vehicles in a network of streets, green spaces, gardens, and parks in this historically significant neighborhood."
         },
@@ -422,18 +423,11 @@ const projects = {
     //img count: 4
     pStreet880:[
         {
-            image: `${paths.base}/${paths.pStreet}/pStreet880_5.jpeg`,
+            image: `${paths.base}/${paths.pStreet}/pStreet880_2.jpg`,
             title: "880 P Street NW",
             designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates.",
             overview: "Washington DC, Shaw neighborhood\nCompletion: 2015\nProgram: Residential, Retail",
             text: "As the final phase of the City Market at O Street development, this project restores the urban fabric along the Ninth and P street frontages. A series of vertically proportioned volumes face the historic townhomes characteristic of the historic Shaw neighborhood.  Upper story setbacks emphasize the scale along the street frontage. Exterior materials include deeply coffered facades in anodized aluminum in combination with softly textured white masonry. Direct entrances from the street are provided along P street, and outdoor balconies and terraces are incorporated throughout."
-        },
-        {
-            image: `${paths.base}/${paths.pStreet}/pStreet880_2.jpg`,
-            title: "880 P Street NW",
-            designed: "",
-            overview: "",
-            text: ""
         },
         {
             image: `${paths.base}/${paths.pStreet}/pStreet880_1.jpg`,
@@ -444,6 +438,13 @@ const projects = {
         },
         {
             image: `${paths.base}/${paths.pStreet}/pStreet880_3.jpg`,
+            title: "880 P Street NW",
+            designed: "",
+            overview: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.pStreet}/pStreet880_5.jpeg`,
             title: "880 P Street NW",
             designed: "",
             overview: "",
@@ -515,22 +516,22 @@ const projects = {
     //img count: 3
     unionMarket: [
         {
-            image: `${paths.base}/${paths.unionMarket}/unionMarket2.jpg`,
+            image: `${paths.base}/${paths.unionMarket}/unionMarket2.jpeg`,
             title: "Union Market",
             designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
             overview: "Silver Spring, Maryland\nResidential Building Completion: 2018",
             text: "A residential and commercial building were designed as part of an emerging district in northeast Washington DC.  The unique architectural approach was a response to the industrial character of the existing warehouse district, long an integral part of the food distribution network of the city.  The commercial building is designed to span a new food market that remains operational during construction.  The residential building provides four modules that rise above an existing warehouse that is repurposed as a food market."
         },
         {
-            image: `${paths.base}/${paths.unionMarket}/unionMarket2.jpg`,
-            text: "Union Market",
+            image: `${paths.base}/${paths.unionMarket}/unionMarket3.jpg`,
+            title: "Union Market",
             designed: "",
             overview: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.unionMarket}/unionMarket1.jpg`,
-            text: "Union Market",
+            title: "Union Market",
             designed: "",
             overview: "",
             text: ""
