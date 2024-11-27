@@ -29,7 +29,7 @@ const paths = {
 };
 
 const projects = {
-    // img count: 6
+    //img count: 9
     carrollCreek: [
         {
             image:`${paths.base}/${paths.carrollCreek}/c04_ALLSAINTS.jpg`,
@@ -72,9 +72,30 @@ const projects = {
             designed: "",
             overview: "",
             text: ""
+        },
+        {
+            image: `${paths.base}/${paths.carrollCreek}/CC_TOY_MODEL_VIEW3.png`,
+            title: "Carroll Creek Historic District",
+            designed: "",
+            overview: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.carrollCreek}/CC_TOY_MODEL_VIEW2.png`,
+            title: "Carroll Creek Historic District",
+            designed: "",
+            overview: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.carrollCreek}/amesDiagrams.png`,
+            title: "Carroll Creek Historic District",
+            designed: "",
+            overview: "",
+            text: ""
         }
     ],
-    // img count: 20
+    // img count: 18
     rosslynHq: [
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq7.jpeg`,
@@ -197,27 +218,6 @@ const projects = {
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/1201_sk6.png`,
-            title: "National Corporate Headquarters",
-            designed: "",
-            overview: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.rosslynHq}/amesDiagrams.png`,
-            title: "National Corporate Headquarters",
-            designed: "",
-            overview: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.rosslynHq}/CC_TOY_MODEL_VIEW2.png`,
-            title: "National Corporate Headquarters",
-            designed: "",
-            overview: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.rosslynHq}/CC_TOY_MODEL_VIEW3.png`,
             title: "National Corporate Headquarters",
             designed: "",
             overview: "",
