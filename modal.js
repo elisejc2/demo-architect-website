@@ -29,7 +29,7 @@ const paths = {
 };
 
 const projects = {
-    //img count: 9
+    //img count: 8
     carrollCreek: [
         {
             image:`${paths.base}/${paths.carrollCreek}/c04_ALLSAINTS.jpg`,
@@ -54,13 +54,6 @@ const projects = {
         },
         {
             image: `${paths.base}/${paths.carrollCreek}/c02_CCGROUND.jpg`,
-            title: "Carroll Creek Historic District",
-            designed: "",
-            overview: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.carrollCreek}/carrollCreek5.jpeg`,
             title: "Carroll Creek Historic District",
             designed: "",
             overview: "",
@@ -640,7 +633,6 @@ function closeModal() {
     modalEl.style.display = "none";
     document.body.style.overflowY = "auto"; // Replace scrollbar for page behind modal when modal is closed
 }
-
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(e) {
