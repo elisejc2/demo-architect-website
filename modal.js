@@ -36,7 +36,7 @@ const projects = {
             title: "Carroll Creek Historic District",
             overview: "Frederick, Maryland \nAnticipated Completion: 2026\nProgram: 230 Residences, Retail",
             designed: "",
-            text: `Located in a historic district on the National Register of Historic Places, the project’s design responds to the industrial legacy of its site including a former rail station, warehouses, and manufacturing buildings. The site is located on the historic Carroll Creek canal and public park. The building concept consists of three wings organized around three outdoor courtyards. The material selections include clay masonry consistent with the historic context and metal panels that recall historic metal roofscapes in Frederick. The program includes retail and residential uses.`
+            text: "Located in a historic district on the National Register of Historic Places, the project’s design responds to the industrial legacy of its site including a former rail station, warehouses, and manufacturing buildings. The site is located on the historic Carroll Creek canal and public park. The building concept consists of three wings organized around three outdoor courtyards. The material selections include clay masonry consistent with the historic context and metal panels that recall historic metal roofscapes in Frederick. The program includes retail and residential uses."
         },
         {
             image: `${paths.base}/${paths.carrollCreek}/c01_CCAERIAL.jpg`,
@@ -95,7 +95,7 @@ const projects = {
             title: "National Corporate Headquarters",
             overview: "Rosslyn, Virginia\nAnticipated Completion: 2026\nProgram: Corporate Headquarters\n",
             designed: "",
-            text: "Located in one of the tallest buildings in the region, the 360-degree views afforded from the top levels of this building were the driver in its’ adaptive reuse as a national headquarters   in Rosslyn, Virginia. Prospects directly across the river to the National Mall and the Georgetown neighborhood in Washington DC were the drivers in the design. The scope involved the renovation of the top level of the building to provide meeting and amenity spaces. The innovative architectural concept uses a series of outwardly focused spaces- a ‘room necklace’ that provides variously scaled rooms including a café space for employees. The design embraces natural materials and plantings to integrate nature into the daily experience of employees while also permitting special events and meetings"
+            text: "The location  on the top floors of one of the tallest buildings in the region with stunning 360-degree views was the inspiration for this adaptive re-use project for a company’s national headquarters location in Rosslyn, Virginia. The scope involved the renovation of the top level of the building to provide meeting and amenity spaces. The innovative architectural concept uses a series of outwardly focused spaces- a ‘room necklace’ that provides variously scaled rooms including a café space for employees. The design embraces natural materials and plantings to integrate nature into the daily experience of employees while also permitting special events and meetings."
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq1.jpeg`,
@@ -240,7 +240,7 @@ const projects = {
             image: `${paths.base}/${paths.bethesdaAve}/4747-Bethesda-06.jpg`,
             title: "4747 Bethesda Avenue",
             overview: "Bethesda, Maryland\nCompletion: 2018\nProgram: Corporate Headquarters, Retail",
-            designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates.",
+            designed: "Designed by Robert Sponseller FAIA - while at Shalom Baranes Associates.",
             text: "Updates to local zoning ordinances triggered the development of this transit rich site in Bethesda Maryland, a suburb of Washington DC.  The design responds to the unique character of the neighborhood, providing a transition between the  commercial and lower scaled residential context. The design responds with a stepped series of volumes that address the heart of the district. The primary exterior material, a patinaed bronze panel, uses a scalloped shape to create visual interest with minimal means."
         },
         {
@@ -265,7 +265,7 @@ const projects = {
             title: "Auburn Avenue",
             overview: "Woodmont Triangle District, Bethesda, Maryland\nCompletion: 2024\nProgram: 210 Residences",
             designed: "",
-            text: "The unusual architectural form for this project is inspired by its unique location. The architects wanted the building to mediate the scale of the residential neighborhood to its north and the downtown urban character to its south. Beyond merely stepping the building, the design embraces the modular scale of the neighborhood as part of its form. A through block public connection runs through the center of the building on the ground level, providing mid square access to a neighborhood park adjacent to the site. The patterned masonry surfaces provide a welcoming, approachable palette for the neighborhood."
+            text: "The unusual architectural form for this project is inspired by its unique location. The architects tapere the building to mediate the scale of the residential neighborhood to its north and the downtown urban scale to the south. Beyond merely stepping the building, the design embraces the modular scale of the neighborhood integral to its form.  A through block public connection runs through the center of the building on the ground level, providing public access to a neighborhood park adjacent to the site. The patterned masonry surfaces provide a welcoming, approachable palette for the neighborhood."
         },
         {
             image: `${paths.base}/${paths.auburnAve}/Alley.jpg`,
@@ -280,8 +280,8 @@ const projects = {
         {
             image: `${paths.base}/${paths.wisconsinAve}/wisconsinAve1.jpg`,
             title: "7272 Wisconsin Avenue",
-            overview: "Bethesda, Maryland\nCompletion: 2019\nProgram: Office, Residential, Retail, Transit Station\nDesigned by Robert Sponseller FAIA while at Shalom Baranes Associates.",
-            designed: "",
+            overview: "Bethesda, Maryland\nCompletion: 2019\nProgram: Office, Residential, Retail, Transit Station",
+            designed: "Designed by Robert Sponseller FAIA - while at Shalom Baranes Associates.",
             text: "Located on one of the most transit friendly sites in the Washington metropolitan region, 7272 Wisconsin establishes a high-water mark for design. The program includes class A office, residential and retail uses built atop a new transit station for metro, light rail and a regional pedestrian  trail. Three separate towers were sculpted to form a series of outdoor spaces and to maximize natural light and views for residents and office workers. A main entry plaza links to transit stations below grade. The innovative design has received awards from the Tall Building Institute and Design Excellence awards program in Montgomery County."
         },
         {
@@ -312,7 +312,7 @@ const projects = {
             image:`${paths.base}/${paths.sigSiteReston}/sigSiteReston1.jpeg`,
             title: "Signature Site",
             overview: "Reston, Virginia\nCompletion: 2017\nProgram: 450 Residences, Retail",
-            designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates.",
+            designed: "Designed by Robert Sponseller FAIA - while at Shalom Baranes Associates.",
             text: "As one of the last sites in the Reston Town Center to develop, the design harkens to the modernism of the more distant context including the  Lake Anne development for inspiration. On this prominent edge location the design proposes two towers that anchor the corner forming  an urban void between them. The towers include 2-3 story volumes that scale the site to the pedestrian streetscape with innovative townhouse and retail wings. Materials highlight the slender proportions of the towers, articulating their vertical forms."
         },
         { 
@@ -350,7 +350,7 @@ const projects = {
             image: `${paths.base}/${paths.vaHq}/vaHq1.jpg`,
             title: "International Corporate Headquarters",
             overview: "McLean, Virginia\nCompletion: 2026\nProgram: Corporate Headquarters",
-            designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates.",
+            designed: "Designed by Robert Sponseller FAIA - while at Shalom Baranes Associates.",
             text: "An existing building was adaptively reused and expanded to become the headquarters location of an international organization. The existing and new wings were developed in a modular fashion around an atrium space inserted into the existing building. Plantings and natural light between the ‘neighborhoods’ are part of an overall strategy to bring nature into the building and part of the everyday work environment. Natural light is brought in through deep clerestories and biophilic inserts that minimize energy used for lighting. On site energy generation  includes geothermal wells and solar panels, and provides approximately 60% of the total energy needed annually."
         },
         {
@@ -381,8 +381,8 @@ const projects = {
             image: `${paths.base}/${paths.cityRidge}/cityRidge1.jpg`,
             title: "City Ridge",
             overview: "Washington, DC\nMaster Plan completion: 2018\tConstruction completion: 2022\nProgram: Office, Retail, 700 Residences",
-            designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates.",
-            text: "This project began with a masterplan for the densification of a site formerly home to Fannie Mae’s headquarters in northwest Washington DC.  A series of new, intimate walking streets surround the historic existing building and connect to the adjacent neighborhoods to the north and south. Intimately scaled curb less streets are defined by the eight new buildings and open spaces that form the public realm. A varied palette of materials provides architectural interest within a distinctly industrial, timeless vocabulary."
+            designed: "Designed by Robert Sponseller FAIA - while at Shalom Baranes Associates.",
+            text: "This project began with a masterplan for the densification of a site formerly home to Fannie Mae’s headquarters in northwest Washington DC.  A series of new, intimate walking streets surround the historic existing building and connect to the adjacent neighborhoods to the north and south. Intimately scaled curb-less streets are defined by the eight new buildings and open spaces that form the public realm. A varied palette of materials provides architectural interest within a distinctly industrial, timeless vocabulary."
         },
         {
             image: `${paths.base}/${paths.cityRidge}/cityRidge2.jpg`,
@@ -419,7 +419,7 @@ const projects = {
             image: `${paths.base}/${paths.pStreet}/pStreet880_2.jpg`,
             title: "880 P Street NW",
             overview: "Washington DC, Shaw neighborhood\nCompletion: 2015\nProgram: Residential, Retail",
-            designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates.",
+            designed: "Designed by Robert Sponseller FAIA - while at Shalom Baranes Associates.",
             text: "As the final phase of the City Market at O Street development, this project restores the urban fabric along the Ninth and P street frontages. A series of vertically proportioned volumes face the historic townhomes characteristic of the historic Shaw neighborhood.  Upper story setbacks emphasize the scale along the street frontage. Exterior materials include deeply coffered facades in anodized aluminum in combination with softly textured white masonry. Direct entrances from the street are provided along P street, and outdoor balconies and terraces are incorporated throughout."
         },
         {
@@ -450,8 +450,8 @@ const projects = {
             image: `${paths.base}/${paths.fortMyer}/fortMyer3.jpeg`,
             title: "1820 Fort Myer",
             overview: "Rosslyn, Virginia\nProgram: 750 Residences, Retail\nCompletion: Anticipated 2028",
-            designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
-            text: "The focus of this redevelopment project was implementing a mid-block public passage as part of a master plan that links the neighborhood to the adjacent transit center. The building forms are designed to maximize natural light along this public passage and scale the buildings appropriately. An undulating, wrinkled façade plane allows for outdoor balconies to be inset into the majority of residences. Green plantings enhance the public realm and are incorporated into the balconies."
+            designed: "Designed by Robert Sponseller FAIA - while at Shalom Baranes Associates",
+            text: "The focus of this redevelopment project was implementing a mid-block public passage as part of a master plan that links the neighborhood to the adjacent transit center. The building forms are designed to maximize natural light along this public open space  and scale the buildings appropriately. An undulating, folded façade plane allows for outdoor balconies to be inset into the majority of residences. Green plantings enhance the public realm and are incorporated into the balconies."
         },
         {
             image: `${paths.base}/${paths.fortMyer}/fortMyer1.jpeg`,
@@ -537,7 +537,7 @@ const projects = {
             title: "Silver Spring Vision",
             overview: "Silver Spring, Maryland\nPlan completion: 2022.",
             designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates ",
-            text: "Invited by the local jurisdiction to assist in a master plan update, the project involved an urban vision for Silver Spring Maryland, a close in Washington DC urban center. Centered on a multi-modal transit hub this vision adds a much needed green park over the transit center along with increased pedestrian access to green space and well defined streets. The plan includes formal strengthening and densification of the adjacent Ripley District neighborhood."
+            text: "Invited by the local jurisdiction to assist in concepts for a master plan update, the project involved an updated urban vision for Silver Spring Maryland, a close in Washington DC urban city center. This proposal  adds a much needed green park over the existing transit center along with increased pedestrian access to the transit center with well defined streets. The plan includes formal strengthening and densification of the adjacent Ripley District neighborhood."
         },
         {
             image: `${paths.base}/${paths.silverSpring}/silverSpring4_300pxin.jpeg`,
