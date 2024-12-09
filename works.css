@@ -147,13 +147,21 @@ body {
 }
 .projectDesigned {
   font-style: italic;
+  line-height: 1.5;
+  font-size: 0.9rem;
 }
-.projectText, .projectDesigned, .projectOverview  {
-  font-size: 1.2rem;
+.projectText, .projectOverview  {
+  font-size: 1.1rem;
   line-height: 1.5;
 }
 .project-text-wrapper {
   padding: 10px;
+}
+.projectText {
+  margin-top: 1em;
+}
+pre {
+  margin-bottom: 0;
 }
 
 /* The Close Button */
