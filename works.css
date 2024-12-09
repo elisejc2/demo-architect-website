@@ -157,6 +157,12 @@ body {
 .project-text-wrapper {
   padding: 10px;
 }
+.projectText {
+  margin-top: 1em;
+}
+pre {
+  margin-bottom: 0;
+}
 
 /* The Close Button */
 .close {
