@@ -224,7 +224,16 @@ pre {
 }
 
 /* carousel speed */
-.carousel-inner > .carousel-item {
-  transition: transform .3s ease-in-out;
-} 
+/* .carousel-inner > .carousel-item {
+  transition: transform 1ms;
+  transition-delay: 0ms;
+}  */
+
+.carousel-item {
+  transition: transform 0ms ease-in-out;
+}
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0ms 0ms;
+}
 /* END POPUP MODAL */

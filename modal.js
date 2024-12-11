@@ -81,7 +81,7 @@ const projects = {
             text: ""
         }
     ],
-    // img count: 20
+    // img count: 19
     rosslynHq: [
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq7.jpeg`,
@@ -168,14 +168,14 @@ const projects = {
             text: ""
         },
         {
-            image: `${paths.base}/${paths.rosslynHq}/view2-sliding door.jpg`,
+            image: `${paths.base}/${paths.rosslynHq}/view2-sliding-door.jpg`,
             title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
-            image: `${paths.base}/${paths.rosslynHq}/1201_sk3_inverted.png`,
+            image: `${paths.base}/${paths.rosslynHq}/1201_sk3-inverted.png`,
             title: "National Headquarters",
             overview: "",
             designed: "",
@@ -196,13 +196,6 @@ const projects = {
             text: ""
         },
         {
-            image: `${paths.base}/${paths.rosslynHq}/1201_sk6_inverted.png`,
-            title: "National Headquarters",
-            overview: "",
-            designed: "",
-            text: ""
-        },
-        {
             image: `${paths.base}/${paths.rosslynHq}/1201_sk6.png`,
             title: "National Headquarters",
             overview: "",
@@ -217,7 +210,7 @@ const projects = {
             text: ""
         },
         {
-            image: `${paths.base}/${paths.rosslynHq}/VIEW2-OTP2.jpg`,
+            image: `${paths.base}/${paths.rosslynHq}/VIEW2-OPT2.jpg`,
             title: "National Headquarters",
             overview: "",
             designed: "",
@@ -375,21 +368,21 @@ const projects = {
             text: ""
         },
         {
-            image: `${paths.base}/${paths.vaHq}/mvaElevation.jpg`,
+            image: `${paths.base}/${paths.vaHq}/mvaElevation.jpeg`,
             title: "International Corporate Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
-            image: `${paths.base}/${paths.vaHq}/mvaInteriorNeighborhood.jpg`,
+            image: `${paths.base}/${paths.vaHq}/mvaInteriorNeighborhood.jpeg`,
             title: "International Corporate Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
-            image: `${paths.base}/${paths.vaHq}/mvaDiagram.jpg`,
+            image: `${paths.base}/${paths.vaHq}/mvaDiagram.jpeg`,
             title: "International Corporate Headquarters",
             overview: "",
             designed: "",
@@ -434,7 +427,7 @@ const projects = {
             text: ""
         },
         {
-            image: `${paths.base}/${paths.cityRidge}/cityRidgeMasterPlanDiagram.jpg`,
+            image: `${paths.base}/${paths.cityRidge}/cityRidgeMasterPlanDiagram.jpeg`,
             title: "City Ridge",
             overview: "",
             designed: "",
