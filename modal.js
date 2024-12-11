@@ -29,7 +29,7 @@ const paths = {
 };
 
 const projects = {
-    //img count: 8
+    //img count: 7
     carrollCreek: [
         {
             image:`${paths.base}/${paths.carrollCreek}/c04_ALLSAINTS.jpg`,
@@ -79,139 +79,146 @@ const projects = {
             overview: "",
             designed: "",
             text: ""
-        },
-        {
-            image: `${paths.base}/${paths.carrollCreek}/amesDiagrams.png`,
-            title: "Carroll Creek Historic District",
-            overview: "",
-            designed: "",
-            text: ""
         }
     ],
-    // img count: 18
+    // img count: 20
     rosslynHq: [
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq7.jpeg`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "Rosslyn, Virginia\nAnticipated Completion: 2026\nProgram: Corporate Headquarters\n",
             designed: "",
             text: "The location  on the top floors of one of the tallest buildings in the region with stunning 360-degree views was the inspiration for this adaptive re-use project for a company’s national headquarters location in Rosslyn, Virginia. The scope involved the renovation of the top level of the building to provide meeting and amenity spaces. The innovative architectural concept uses a series of outwardly focused spaces- a ‘room necklace’ that provides variously scaled rooms including a café space for employees. The design embraces natural materials and plantings to integrate nature into the daily experience of employees while also permitting special events and meetings."
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq1.jpeg`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq2.jpeg`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq3.jpeg`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq4.jpeg`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq5.jpeg`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq6.jpeg`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq8.jpeg`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq9.jpeg`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq10.jpeg`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq11.jpeg`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/r1ab-s4.jpeg`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/view2-sliding door.jpg`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/1201_sk3_inverted.png`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/1201_sk6_inverted.png`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/1201_sk3.png`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/1201_sk6_inverted.png`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/1201_sk6.png`,
-            title: "National Corporate Headquarters",
+            title: "National Headquarters",
+            overview: "",
+            designed: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.rosslynHq}/view3.png`,
+            title: "National Headquarters",
+            overview: "",
+            designed: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.rosslynHq}/VIEW2-OTP2.jpg`,
+            title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
@@ -241,7 +248,7 @@ const projects = {
             title: "4747 Bethesda Avenue",
             overview: "Bethesda, Maryland\nCompletion: 2018\nProgram: Corporate Headquarters, Retail",
             designed: "Designed by Robert Sponseller FAIA - while at Shalom Baranes Associates.",
-            text: "Updates to local zoning ordinances triggered the development of this transit rich site in Bethesda Maryland, a suburb of Washington DC.  The design responds to the unique character of the neighborhood, providing a transition between the  commercial and lower scaled residential context. The design responds with a stepped series of volumes that address the heart of the district. The primary exterior material, a patinaed bronze panel, uses a scalloped shape to create visual interest with minimal means."
+            text: "This site provided the opportunity to address a significant open space in the Woodmont Avenue section of Bethesda Maryland, a suburb of Washington DC.  The design responds to the unique character of the neighborhood, providing a transition between the  commercial and lower scaled residential contex with a series of  stepped  volumes that address the plaza in the heart of the district. The primary exterior material, a patinaed bronze panel, uses a scalloped shape to create visual interest with minimal means."
         },
         {
             image: `${paths.base}/${paths.bethesdaAve}/4747-Bethesda-01.jpg`,
@@ -282,7 +289,7 @@ const projects = {
             title: "7272 Wisconsin Avenue",
             overview: "Bethesda, Maryland\nCompletion: 2019\nProgram: Office, Residential, Retail, Transit Station",
             designed: "Designed by Robert Sponseller FAIA - while at Shalom Baranes Associates.",
-            text: "Located on one of the most transit friendly sites in the Washington metropolitan region, 7272 Wisconsin establishes a high-water mark for design. The program includes class A office, residential and retail uses built atop a new transit station for metro, light rail and a regional pedestrian  trail. Three separate towers were sculpted to form a series of outdoor spaces and to maximize natural light and views for residents and office workers. A main entry plaza links to transit stations below grade. The innovative design has received awards from the Tall Building Institute and Design Excellence awards program in Montgomery County."
+            text: "Located on one of the most transit friendly sites in the Washington metropolitan region, 7272 Wisconsin integrates new development  with a new on-site transit station. The program includes class A office, residential and retail uses built atop a new transit station for metro, light rail and a regional pedestrian  trail. Three separate towers were sculpted to form a series of outdoor spaces and to maximize natural light and views for residents and office workers. A main entry plaza links to transit stations below grade. The innovative design has received awards from the Tall Building Institute and Design Excellence awards program in Montgomery County."
         },
         {
             image: `${paths.base}/${paths.wisconsinAve}/wisconsinAve2.jpg`,
@@ -344,7 +351,7 @@ const projects = {
             text: ""
         },
     ],
-    //img count: 4
+    //img count: 6
     vaHq: [
         {
             image: `${paths.base}/${paths.vaHq}/vaHq1.jpg`,
@@ -352,13 +359,6 @@ const projects = {
             overview: "McLean, Virginia\nCompletion: 2026\nProgram: Corporate Headquarters",
             designed: "Designed by Robert Sponseller FAIA - while at Shalom Baranes Associates.",
             text: "An existing building was adaptively reused and expanded to become the headquarters location of an international organization. The existing and new wings were developed in a modular fashion around an atrium space inserted into the existing building. Plantings and natural light between the ‘neighborhoods’ are part of an overall strategy to bring nature into the building and part of the everyday work environment. Natural light is brought in through deep clerestories and biophilic inserts that minimize energy used for lighting. On site energy generation  includes geothermal wells and solar panels, and provides approximately 60% of the total energy needed annually."
-        },
-        {
-            image: `${paths.base}/${paths.vaHq}/vaHq2_300pxin.jpeg`,
-            title: "International Corporate Headquarters",
-            overview: "",
-            designed: "",
-            text: ""
         },
         {
             image: `${paths.base}/${paths.vaHq}/vaHq3.jpeg`,
@@ -373,9 +373,30 @@ const projects = {
             overview: "",
             designed: "",
             text: ""
+        },
+        {
+            image: `${paths.base}/${paths.vaHq}/mvaElevation.jpg`,
+            title: "International Corporate Headquarters",
+            overview: "",
+            designed: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.vaHq}/mvaInteriorNeighborhood.jpg`,
+            title: "International Corporate Headquarters",
+            overview: "",
+            designed: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.vaHq}/mvaDiagram.jpg`,
+            title: "International Corporate Headquarters",
+            overview: "",
+            designed: "",
+            text: ""
         }
     ],
-    //img count: 5
+    //img count: 6
     cityRidge: [
         {
             image: `${paths.base}/${paths.cityRidge}/cityRidge1.jpg`,
@@ -407,6 +428,13 @@ const projects = {
         },
         {
             image: `${paths.base}/${paths.cityRidge}/cityRidge5.jpg`,
+            title: "City Ridge",
+            overview: "",
+            designed: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.cityRidge}/cityRidgeMasterPlanDiagram.jpg`,
             title: "City Ridge",
             overview: "",
             designed: "",
@@ -473,19 +501,26 @@ const projects = {
             overview: "",
             designed: "",
             text: ""
+        },
+        {
+            image: `${paths.base}/${paths.fortMyer}/amesDiagrams.png`,
+            title: "1820 Fort Myer",
+            overview: "",
+            designed: "",
+            text: ""
         }
     ],
     //img count: 4
     walterReed: [
         {
-            image: `${paths.base}/${paths.walterReed}/walterReedMasterplan1.jpg`,
+            image: `${paths.base}/${paths.walterReed}/walterReedMasterplan1.jpeg`,
             title: "Walter Reed",
             overview: "Washington, DC\nProgram:  Planning and Adaptive Re-use of 70 acres",
             designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
             text: "This master plan was a competition entry for the development of a formerly military hospital campus. The master plan included the adaptive re-use of multiple existing buildings and the formation of multiple new use areas including a residential neighborhood, a new commercial district including research facilities and recreational and cultural uses utilizing an expansive natural park area."
         },
         {
-            image: `${paths.base}/${paths.walterReed}/walterReedMasterplan2.jpg`,
+            image: `${paths.base}/${paths.walterReed}/walterReedMasterplan2.jpeg`,
             title: "Walter Reed",
             overview: "",
             designed: "",
@@ -530,7 +565,7 @@ const projects = {
             text: ""
         }
     ],
-    //img count: 3
+    //img count: 2
     silverSpring: [
         {
             image: `${paths.base}/${paths.silverSpring}/silverSpring2_300pxin.jpeg`,
@@ -541,13 +576,6 @@ const projects = {
         },
         {
             image: `${paths.base}/${paths.silverSpring}/silverSpring4_300pxin.jpeg`,
-            title: "Silver Spring Vision",
-            overview: "",
-            designed: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.silverSpring}/silverSpring7_300pxin.jpeg`,
             title: "Silver Spring Vision",
             overview: "",
             designed: "",
