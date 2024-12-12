@@ -60,7 +60,7 @@ const projects = {
             text: ""
         },
         {
-            image: `${paths.base}/${paths.carrollCreek}/carrollCreek6.jpeg`,
+            image: `${paths.base}/${paths.carrollCreek}/carrollCreekDiagram.jpeg`,
             title: "Carroll Creek Historic District",
             overview: "",
             designed: "",
