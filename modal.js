@@ -217,17 +217,24 @@ const projects = {
             text: ""
         }
     ],
-    // img count: 2
+    // img count: 3
     greenbelt: [       
         {
-            image: `${paths.base}/${paths.greenbelt}/masterplanGreenbelt1.jpg`,
+            image: `${paths.base}/${paths.greenbelt}/c01_op2_1210.jpg`,
             title: "Historic Greenbelt Master Plan",
             overview: "Greenbelt, Maryland\nMaster Plan completion:  December 2024\nProgram: Office, Hotel, Residential, Townhomes",
             designed: "",
             text: "The redevelopment of this site references the legacy of the historic Greenbelt Town Center planned during the public works era in the 1930’s. The plan converts a suburban office park and puts the pedestrian and public realm at the center of its densification.  A combination of uses is added to the existing office buildings including office, residential, hotel and retail. The plan is street focused  and integrates pedestrians and vehicles in a network of streets, green spaces, gardens, and parks."
         },
         {
-            image: `${paths.base}/${paths.greenbelt}/masterplanGreenbelt2.jpeg`,
+            image: `${paths.base}/${paths.greenbelt}/c02_op2_1210.jpg`,
+            title: "Historic Greenbelt Master Plan",
+            overview: "",
+            designed: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.greenbelt}/c03_1210.jpg`,
             title: "Historic Greenbelt Master Plan",
             overview: "",
             designed: "",
