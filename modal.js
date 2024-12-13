@@ -81,7 +81,7 @@ const projects = {
             text: ""
         }
     ],
-    // img count: 19 *** National HQ, Rosslyn VA ***
+    // img count: 8 *** National HQ, Rosslyn VA ***
     rosslynHq: [
         {
             image: `${paths.base}/${paths.rosslynHq}/Enscape_MODEL1.png`,
@@ -98,49 +98,7 @@ const projects = {
             text: ""
         },
         {
-            image: `${paths.base}/${paths.rosslynHq}/rosslynHq2.jpeg`,
-            title: "National Headquarters",
-            overview: "",
-            designed: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.rosslynHq}/rosslynHq3.jpeg`,
-            title: "National Headquarters",
-            overview: "",
-            designed: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.rosslynHq}/rosslynHq4.jpeg`,
-            title: "National Headquarters",
-            overview: "",
-            designed: "",
-            text: ""
-        },
-        {
             image: `${paths.base}/${paths.rosslynHq}/r1ab-s3.png`,
-            title: "National Headquarters",
-            overview: "",
-            designed: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.rosslynHq}/6.png`,
-            title: "National Headquarters",
-            overview: "",
-            designed: "",
-            text: ""
-        },
-        // {
-        //     image: `${paths.base}/${paths.rosslynHq}/Enscape_MODEL1.png`,
-        //     title: "National Headquarters",
-        //     overview: "",
-        //     designed: "",
-        //     text: ""
-        // },
-        {
-            image: `${paths.base}/${paths.rosslynHq}/Enscape_MODEL2.png`,
             title: "National Headquarters",
             overview: "",
             designed: "",
@@ -161,35 +119,7 @@ const projects = {
             text: ""
         },
         {
-            image: `${paths.base}/${paths.rosslynHq}/rosslynHq11.jpeg`,
-            title: "National Headquarters",
-            overview: "",
-            designed: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.rosslynHq}/r1ab-s4.jpeg`,
-            title: "National Headquarters",
-            overview: "",
-            designed: "",
-            text: ""
-        },
-        {
             image: `${paths.base}/${paths.rosslynHq}/view2-sliding-door.jpg`,
-            title: "National Headquarters",
-            overview: "",
-            designed: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.rosslynHq}/1201_sk3-inverted.png`,
-            title: "National Headquarters",
-            overview: "",
-            designed: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.rosslynHq}/1201_sk6_inverted.png`,
             title: "National Headquarters",
             overview: "",
             designed: "",
@@ -203,21 +133,7 @@ const projects = {
             text: ""
         },
         {
-            image: `${paths.base}/${paths.rosslynHq}/1201_sk6.png`,
-            title: "National Headquarters",
-            overview: "",
-            designed: "",
-            text: ""
-        },
-        {
             image: `${paths.base}/${paths.rosslynHq}/view3.png`,
-            title: "National Headquarters",
-            overview: "",
-            designed: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.rosslynHq}/VIEW2-OPT2.jpg`,
             title: "National Headquarters",
             overview: "",
             designed: "",
@@ -358,24 +274,17 @@ const projects = {
             text: ""
         },
     ],
-    //img count: 6 *** International Corporate HQ, VA ***
+    //img count: 4 *** International Corporate HQ, VA ***
     vaHq: [
         {
-            image: `${paths.base}/${paths.vaHq}/vaHq1.jpg`,
+            image: `${paths.base}/${paths.vaHq}/mvaDiagram.jpeg`,
             title: "International Corporate Headquarters",
             overview: "McLean, Virginia\nCompletion: 2026\nProgram: Corporate Headquarters",
             designed: "Designed by Robert Sponseller FAIA - while at Shalom Baranes Associates.",
             text: "An existing building was adaptively reused and expanded to become the headquarters location of an international organization. The existing and new wings were developed in a modular fashion around an atrium space inserted into the existing building. Plantings and natural light between the ‘neighborhoods’ are part of an overall strategy to bring nature into the building and part of the everyday work environment. Natural light is brought in through deep clerestories and biophilic inserts that minimize energy used for lighting. On site energy generation  includes geothermal wells and solar panels, and provides approximately 60% of the total energy needed annually."
         },
         {
-            image: `${paths.base}/${paths.vaHq}/vaHq3.jpeg`,
-            title: "International Corporate Headquarters",
-            overview: "",
-            designed: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.vaHq}/vaHq4.jpeg`,
+            image: `${paths.base}/${paths.vaHq}/vaHq1.jpg`,
             title: "International Corporate Headquarters",
             overview: "",
             designed: "",
@@ -390,13 +299,6 @@ const projects = {
         },
         {
             image: `${paths.base}/${paths.vaHq}/mvaInteriorNeighborhood.jpeg`,
-            title: "International Corporate Headquarters",
-            overview: "",
-            designed: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.vaHq}/mvaDiagram.jpeg`,
             title: "International Corporate Headquarters",
             overview: "",
             designed: "",
