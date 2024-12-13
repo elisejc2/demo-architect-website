@@ -60,7 +60,7 @@ const projects = {
             text: ""
         },
         {
-            image: `${paths.base}/${paths.carrollCreek}/carrollCreek6.jpeg`,
+            image: `${paths.base}/${paths.carrollCreek}/carrollCreekDiagram.jpeg`,
             title: "Carroll Creek Historic District",
             overview: "",
             designed: "",
@@ -81,10 +81,10 @@ const projects = {
             text: ""
         }
     ],
-    // img count: 19
+    // img count: 19 *** National HQ, Rosslyn VA ***
     rosslynHq: [
         {
-            image: `${paths.base}/${paths.rosslynHq}/rosslynHq7.jpeg`,
+            image: `${paths.base}/${paths.rosslynHq}/Enscape_MODEL1.png`,
             title: "National Headquarters",
             overview: "Rosslyn, Virginia\nAnticipated Completion: 2026\nProgram: Corporate Headquarters\n",
             designed: "",
@@ -119,21 +119,28 @@ const projects = {
             text: ""
         },
         {
-            image: `${paths.base}/${paths.rosslynHq}/rosslynHq5.jpeg`,
+            image: `${paths.base}/${paths.rosslynHq}/r1ab-s3.png`,
             title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
         {
-            image: `${paths.base}/${paths.rosslynHq}/rosslynHq6.jpeg`,
+            image: `${paths.base}/${paths.rosslynHq}/6.png`,
             title: "National Headquarters",
             overview: "",
             designed: "",
             text: ""
         },
+        // {
+        //     image: `${paths.base}/${paths.rosslynHq}/Enscape_MODEL1.png`,
+        //     title: "National Headquarters",
+        //     overview: "",
+        //     designed: "",
+        //     text: ""
+        // },
         {
-            image: `${paths.base}/${paths.rosslynHq}/rosslynHq8.jpeg`,
+            image: `${paths.base}/${paths.rosslynHq}/Enscape_MODEL2.png`,
             title: "National Headquarters",
             overview: "",
             designed: "",
@@ -147,7 +154,7 @@ const projects = {
             text: ""
         },
         {
-            image: `${paths.base}/${paths.rosslynHq}/rosslynHq10.jpeg`,
+            image: `${paths.base}/${paths.rosslynHq}/model3.png`,
             title: "National Headquarters",
             overview: "",
             designed: "",
@@ -351,7 +358,7 @@ const projects = {
             text: ""
         },
     ],
-    //img count: 6
+    //img count: 6 *** International Corporate HQ, VA ***
     vaHq: [
         {
             image: `${paths.base}/${paths.vaHq}/vaHq1.jpg`,
@@ -520,7 +527,7 @@ const projects = {
             text: "This master plan was a competition entry for the development of a formerly military hospital campus. The master plan included the adaptive re-use of multiple existing buildings and the formation of multiple new use areas including a residential neighborhood, a new commercial district including research facilities and recreational and cultural uses utilizing an expansive natural park area."
         },
         {
-            image: `${paths.base}/${paths.walterReed}/walterReedMasterplan2.jpeg`,
+            image: `${paths.base}/${paths.walterReed}/walterReedMasterPlan2.jpeg`,
             title: "Walter Reed",
             overview: "",
             designed: "",
