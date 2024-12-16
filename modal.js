@@ -86,9 +86,9 @@ const projects = {
         {
             image: `${paths.base}/${paths.rosslynHq}/Enscape_MODEL1.png`,
             title: "National Headquarters",
-            overview: "Rosslyn, Virginia\nAnticipated Completion: 2026\nProgram: Corporate Headquarters\n",
+            overview: "Virginia\nAnticipated Completion: 2026\nProgram: Corporate Headquarters\n",
             designed: "",
-            text: "The location  on the top floors of one of the tallest buildings in the region with stunning 360-degree views was the inspiration for this adaptive re-use project for a company’s national headquarters location in Rosslyn, Virginia. The scope involved the renovation of the top level of the building to provide meeting and amenity spaces. The innovative architectural concept uses a series of outwardly focused spaces- a ‘room necklace’ that provides variously scaled rooms including a café space for employees. The design embraces natural materials and plantings to integrate nature into the daily experience of employees while also permitting special events and meetings."
+            text: "The location  on the top floors of one of the tallest buildings in the region with stunning 360-degree views was the inspiration for this adaptive re-use project for a company’s national headquarters location in Virginia. The scope involved the renovation of the top level of the building to provide meeting and amenity spaces. The innovative architectural concept uses a series of outwardly focused spaces- a ‘room necklace’ that provides variously scaled rooms including a café space for employees. The design embraces natural materials and plantings to integrate nature into the daily experience of employees while also permitting special events and meetings."
         },
         {
             image: `${paths.base}/${paths.rosslynHq}/rosslynHq1.jpeg`,
@@ -279,7 +279,7 @@ const projects = {
         {
             image: `${paths.base}/${paths.vaHq}/mvaDiagram.jpeg`,
             title: "International Corporate Headquarters",
-            overview: "McLean, Virginia\nCompletion: 2026\nProgram: Corporate Headquarters",
+            overview: "Virginia\nCompletion: 2026\nProgram: Corporate Headquarters",
             designed: "Designed by Robert Sponseller FAIA - while at Shalom Baranes Associates.",
             text: "An existing building was adaptively reused and expanded to become the headquarters location of an international organization. The existing and new wings were developed in a modular fashion around an atrium space inserted into the existing building. Plantings and natural light between the ‘neighborhoods’ are part of an overall strategy to bring nature into the building and part of the everyday work environment. Natural light is brought in through deep clerestories and biophilic inserts that minimize energy used for lighting. On site energy generation  includes geothermal wells and solar panels, and provides approximately 60% of the total energy needed annually."
         },
