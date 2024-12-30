@@ -494,7 +494,7 @@ const projects = {
     //img count: 7
     oldGeorgetownRd: [
         {
-            image: `${paths.base}/${paths.oldGeorgetownRd}/image003.jpeg`,
+            image: `${paths.base}/${paths.oldGeorgetownRd}/image001.jpg`,
             title: "7607 Old Georgetown Rd",
             overview: "Bethesda, Md\nProgram:  Residential, Retail",
             designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
@@ -529,14 +529,14 @@ const projects = {
             text: ""
         },
         {
-            image: `${paths.base}/${paths.oldGeorgetownRd}/image001.jpeg`,
+            image: `${paths.base}/${paths.oldGeorgetownRd}/image007.jpg`,
             title: "7607 Old Georgetown Rd",
             overview: "",
             designed: "",
             text: ""
         },
         {
-            image: `${paths.base}/${paths.oldGeorgetownRd}/image005.jpeg`,
+            image: `${paths.base}/${paths.oldGeorgetownRd}/image004.jpg`,
             title: "7607 Old Georgetown Rd",
             overview: "",
             designed: "",
