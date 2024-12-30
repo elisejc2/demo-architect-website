@@ -491,14 +491,21 @@ const projects = {
             text: ""
         }
     ],
-    //img count: 4
+    //img count: 7
     oldGeorgetownRd: [
         {
-            image: `${paths.base}/${paths.oldGeorgetownRd}/oldGeorgetownRdCornerPerspective.jpeg`,
+            image: `${paths.base}/${paths.oldGeorgetownRd}/image001.jpg`,
             title: "7607 Old Georgetown Rd",
             overview: "Bethesda, Md\nProgram:  Residential, Retail",
             designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
             text: "A highly constrained urban site  in the heart of this neighborhood required careful planning and massing.  The volumes address both the primary arterial and the adjacent curving tree lined frontage to the east.  The architects utilized modest masonry materials and worked with window articulation, pattern and color to provide design value using conventional construction practices."
+        },
+        {
+            image: `${paths.base}/${paths.oldGeorgetownRd}/oldGeorgetownRdCornerPerspective.jpeg`,
+            title: "7607 Old Georgetown Rd",
+            overview: "",
+            designed: "",
+            text: ""
         },
         {
             image: `${paths.base}/${paths.oldGeorgetownRd}/oldGeorgetownRdFormDevelopmentDiagrams.jpeg`,
@@ -516,6 +523,20 @@ const projects = {
         },
         {
             image: `${paths.base}/${paths.oldGeorgetownRd}/oldGeorgetownRdBuildingElevations2.jpeg`,
+            title: "7607 Old Georgetown Rd",
+            overview: "",
+            designed: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.oldGeorgetownRd}/image007.jpg`,
+            title: "7607 Old Georgetown Rd",
+            overview: "",
+            designed: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.oldGeorgetownRd}/image004.jpg`,
             title: "7607 Old Georgetown Rd",
             overview: "",
             designed: "",
