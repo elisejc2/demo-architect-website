@@ -48,10 +48,10 @@ li, ul, a:not(#apply-email, .buttons>*), .navbar, .nav-link, .navbar-nav {
     flex-wrap: wrap;
     /* padding: 1rem 0; */
   }
-  /* Create four equal columns that sits next to each other */
+  /* Create two equal columns that sits next to each other */
   .column {
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
+    -ms-flex: 50%; /* */
+    flex: 50%;
   }
   .column img {
     /* margin-top: 8px; */
