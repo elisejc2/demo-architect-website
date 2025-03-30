@@ -194,7 +194,7 @@ const projects = {
             image: `${paths.base}/${paths.auburnAve}/C01_op1_0327_FP.jpg`,
             title: "Auburn Avenue",
             overview: "Woodmont Triangle District, Bethesda, Maryland\nCompletion: 2024\nProgram: 210 Residences",
-            designed: "",
+            designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
             text: "The unusual architectural form for this project is inspired by its unique location. The architects tapere the building to mediate the scale of the residential neighborhood to its north and the downtown urban scale to the south. Beyond merely stepping the building, the design embraces the modular scale of the neighborhood integral to its form.  A through block public connection runs through the center of the building on the ground level, providing public access to a neighborhood park adjacent to the site. The patterned masonry surfaces provide a welcoming, approachable palette for the neighborhood."
         },
         {
@@ -455,7 +455,7 @@ const projects = {
         {
             image: `${paths.base}/${paths.unionMarket}/unionMarket2.jpeg`,
             title: "Union Market",
-            overview: "Silver Spring, Maryland\nResidential Building Completion: 2018",
+            overview: "Washington D.C.\nResidential Building Completion: 2018",
             designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
             text: "A residential and commercial building were designed as part of an emerging district in northeast Washington DC.  The unique architectural approach was a response to the industrial character of the existing warehouse district, long an integral part of the food distribution network of the city.  The commercial building is designed to span a new food market that remains operational during construction.  The residential building provides four modules that rise above an existing warehouse that is repurposed as a food market."
         },

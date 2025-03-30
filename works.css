@@ -10,7 +10,7 @@ body {
 li, ul, a:not(#apply-email, .buttons>*), .navbar, .nav-link, .navbar-nav {
   text-decoration: none !important;
   color: black !important;
-  text-shadow: 2px 2px 2px rgba(163, 163, 163, 0.672);
+  text-shadow: none;
 }
 .title {
   margin-top: 3rem;
@@ -107,7 +107,7 @@ li, ul, a:not(#apply-email, .buttons>*), .navbar, .nav-link, .navbar-nav {
     opacity: 1;
   }
   .text {
-    text-shadow: 2px 2px 5px rgb(129, 129, 129);
+    text-shadow: none;
     color: black;
   }
   /* end @overlay */
