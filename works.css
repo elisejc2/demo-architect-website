@@ -52,7 +52,6 @@ li, ul, a:not(#apply-email, .buttons>*), .navbar, .nav-link, .navbar-nav {
   .column {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
-    max-width: 25%;
   }
   .column img {
     /* margin-top: 8px; */
