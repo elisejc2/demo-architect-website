@@ -25,7 +25,8 @@ const paths = {
     walterReed: "walterReed",
     unionMarket: "unionMarket",
     silverSpring: "silverSpring",
-    oldGeorgetownRd: "oldGeorgetownRd"
+    oldGeorgetownRd: "oldGeorgetownRd",
+    marylandMasterPlan: "marylandMasterPlan"
 };
 
 const projects = {
@@ -491,14 +492,28 @@ const projects = {
             text: ""
         }
     ],
-    //img count: 7
+    //img count: 8
     oldGeorgetownRd: [
         {
-            image: `${paths.base}/${paths.oldGeorgetownRd}/image001.jpg`,
+            image: `${paths.base}/${paths.oldGeorgetownRd}/image002.jpg`,
             title: "7607 Old Georgetown Rd",
             overview: "Bethesda, Md\nProgram:  Residential, Retail",
             designed: "Designed by Robert Sponseller FAIA while at Shalom Baranes Associates",
             text: "A highly constrained urban site  in the heart of this neighborhood required careful planning and massing.  The volumes address both the primary arterial and the adjacent curving tree lined frontage to the east.  The architects utilized modest masonry materials and worked with window articulation, pattern and color to provide design value using conventional construction practices."
+        },
+        {
+            image: `${paths.base}/${paths.oldGeorgetownRd}/image007.jpg`,
+            title: "7607 Old Georgetown Rd",
+            overview: "",
+            designed: "",
+            text: ""
+        },
+        {
+            image: `${paths.base}/${paths.oldGeorgetownRd}/image004.jpg`,
+            title: "7607 Old Georgetown Rd",
+            overview: "",
+            designed: "",
+            text: ""
         },
         {
             image: `${paths.base}/${paths.oldGeorgetownRd}/oldGeorgetownRdCornerPerspective.jpeg`,
@@ -527,20 +542,16 @@ const projects = {
             overview: "",
             designed: "",
             text: ""
-        },
+        }
+    ],
+    //img count: 1
+    marylandMasterPlan: [
         {
-            image: `${paths.base}/${paths.oldGeorgetownRd}/image007.jpg`,
-            title: "7607 Old Georgetown Rd",
-            overview: "",
+            image: `${paths.base}/${paths.marylandMasterPlan}/aerialsConceptDev.jpeg`,
+            title: "Maryland Master Plan",
+            overview: "Southern Maryland\t2025  ",
             designed: "",
-            text: ""
-        },
-        {
-            image: `${paths.base}/${paths.oldGeorgetownRd}/image004.jpg`,
-            title: "7607 Old Georgetown Rd",
-            overview: "",
-            designed: "",
-            text: ""
+            text: "A new urban mixed-use community is being planned for a former retail center in central Maryland. The site is in an area that is designated to accommodate the community’s future growth needs and assist in meeting affordable housing goals. The forty-acre site is being re-imagined as a walkable urban community to include multiple residential housing types, housing for families and seniors, retail and commercial space. The plan inverts the existing car focused model to a walkable pedestrian focused urban village near a significant transit hub. Road patterns extend and enhance the surrounding street pattern to ensure connectivity. Roadways are planned to accommodate bicycles and ample pedestrian activities. Entitlements and planning for this long term plan include a phasing strategy that ensures the viability of the site as it transitions over time."
         }
     ]
 }
