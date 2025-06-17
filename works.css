@@ -1,0 +1,222 @@
+body {
+  margin: 0 0.5rem;
+  background-color: white;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: rgba(233, 233, 233, 0.8);
+  border: none;
+}
+li, ul, a:not(#apply-email, .buttons>*), .navbar, .nav-link, .navbar-nav {
+  text-decoration: none !important;
+  color: black !important;
+  text-shadow: none;
+}
+/* START THUMBNAIL GALLERY*/
+* {
+    box-sizing: border-box;
+  }
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    padding-bottom: 6rem;
+  }
+  /* Create two equal columns that sits next to each other */
+  .column {
+    -ms-flex: 50%; 
+    flex: 50%;
+  }
+  .thumbnailView > img {
+    padding-bottom: 0.5rem !important;
+  }
+  .column img {
+    /* margin-top: 8px; */
+    vertical-align: middle;
+    width: 100%;
+    padding-top: 5rem;
+    /* padding-bottom: 5rem; */
+  }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 599.9px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+  @media screen and (min-width: 600px){
+    #column-1 {
+      padding-left: 12rem;
+      padding-right: 6rem;
+    }
+    #column-2 {
+      padding-left: 6rem;
+      padding-right: 12rem;
+    }
+    .thumbnailView > span {
+      padding-bottom: 5rem;
+      padding-left: 1px;
+    }
+  }
+
+  /* start @overlay */
+  .container-fluid {
+    position: relative;
+    width: 100%;
+  }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .2s ease;
+    backface-visibility: hidden;
+  }
+  .container-fluid:hover .image {
+    opacity: 0.3;
+  }
+  .container-fluid:hover {
+    opacity: 1;
+  }
+  .text {
+    text-shadow: none;
+    color: black;
+  }
+  /* end @overlay */
+
+/* END THUMBNAIL GALLERY */
+/* START POPUP MODAL */
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100vw; /* Full width */
+  height: 90vw; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(255, 255, 255); /* Fallback color */
+  background-color: rgb(255, 255, 255); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  /* background-color: rgba(131, 131, 131, 0.4); */
+  margin: auto;
+  padding: 10px 20px;
+  width: 100vw; /* Adjust width based on screen size */
+  max-width: 100vw; /* Ensure it doesn't get too large */
+  height: 100%;
+  position: relative;
+  background-color: white; /* Background color for modal content */
+  border-radius: 5px;
+}
+.modal-carousel-image {
+  width: 100%; /* Full width for the image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* .carousel-inner { } */
+
+.carousel-text {
+  text-align: center; /* Center the text */
+  margin-top: 20px;   /* Add space above the text */
+}
+.project-text-wrapper > span {
+  display: block;
+}
+.projectTitle {
+  font-size: 1.5rem;
+}
+.projectDesigned {
+  font-style: italic;
+  line-height: 1.5;
+  font-size: 0.7rem;
+}
+.projectText, .projectOverview  {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.project-text-wrapper {
+  padding: 10px;
+}
+.projectText {
+  margin-top: 1em;
+}
+pre {
+  margin-bottom: 0;
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  flex-direction: row-reverse;
+  -ms-flex-direction: column-reverse;
+  font-size: 3rem;
+  font-weight: lighter;
+  padding-right: 0.5rem;
+  cursor: pointer;
+  display: inline-flex; 
+  -ms-display: inline-flex; /* Add prefixes for older browsers */
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.carousel {
+  height: 90vh; /* Modify the Bootstrap .carousel class so that the heigh of the carousel is limited to 90% of the viewport */
+  overflow-y: scroll; /* Allow scrolling within the carousel */
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 16 16'%3E%3Cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 16 16'%3E%3Cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+/* carousel */
+.carousel-item img {
+  height: 500px;
+}
+
+.carousel-inner > .carousel-item > img {
+  width: fit-content;
+  height: fit-content;
+  max-height: 90vh;
+  max-width: 1000;
+}
+
+/* .carousel-inner > .carousel-item {
+  width: fit-content;
+  height: fit-content;
+  max-width: 1300;
+  max-height: 1300px;
+} */
+.carousel-item > img {
+  object-fit: contain;
+}
+
+/* carousel speed */
+/* .carousel-inner > .carousel-item {
+  transition: transform 1ms;
+  transition-delay: 0ms;
+}  */
+
+.carousel-item {
+  transition: transform 0ms ease-in-out;
+}
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0ms 0ms;
+}
+/* END POPUP MODAL */
